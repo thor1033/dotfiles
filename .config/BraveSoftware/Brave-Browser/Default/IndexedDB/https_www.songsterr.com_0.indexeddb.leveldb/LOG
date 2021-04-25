@@ -1,0 +1,15 @@
+2021/04/20-22:53:52.545 1b4c67 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.songsterr.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/20-22:53:52.546 1b4c67 Recovering log #7
+2021/04/20-22:53:52.546 1b4c67 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.songsterr.com_0.indexeddb.leveldb/000007.log 
+2021/04/20-23:04:06.942 1d1329 Level-0 table #12: started
+2021/04/20-23:04:06.944 1d1329 Level-0 table #12: 5692 bytes OK
+2021/04/20-23:04:06.945 1d1329 Delete type=0 #7
+2021/04/20-23:04:06.946 1d1329 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/20-23:04:06.946 1d1329 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01#\x00p\x00a\x00r\x00t\x00_\x002\x002\x003\x004\x004\x000\x00_\x000\x00_\x00N\x00X\x005\x00n\x00Z\x00W\x00i\x00N\x004\x00s\x00K\x006\x00I\x00O\x00k\x00m\x007\x00Y\x00b\x00T\x00R' @ 97 : 1
+2021/04/20-23:04:06.946 1d1329 Compacting 1@1 + 1@2 files
+2021/04/20-23:04:06.947 1d1329 Generated table #13@1: 28 keys, 6175 bytes
+2021/04/20-23:04:06.947 1d1329 Compacted 1@1 + 1@2 files => 6175 bytes
+2021/04/20-23:04:06.948 1d1329 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/20-23:04:06.948 1d1329 Delete type=2 #12
+2021/04/20-23:04:06.948 1d1329 Delete type=2 #9
+2021/04/20-23:04:06.949 1d1329 Manual compaction at level-1 from '\x00\x01\x01\x02\x01#\x00p\x00a\x00r\x00t\x00_\x002\x002\x003\x004\x004\x000\x00_\x000\x00_\x00N\x00X\x005\x00n\x00Z\x00W\x00i\x00N\x004\x00s\x00K\x006\x00I\x00O\x00k\x00m\x007\x00Y\x00b\x00T\x00R' @ 97 : 1 .. (end); will stop at (end)

@@ -1,0 +1,17 @@
+2021/04/21-12:22:35.042 13ff71 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.nationalgeographic.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/21-12:22:46.408 13c085 Level-0 table #5: started
+2021/04/21-12:22:46.409 13c085 Level-0 table #5: 592 bytes OK
+2021/04/21-12:22:46.410 13c085 Delete type=0 #3
+2021/04/21-12:22:46.410 13c085 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/21-12:22:48.416 13ff71 Level-0 table #7: started
+2021/04/21-12:22:48.417 13ff71 Level-0 table #7: 237 bytes OK
+2021/04/21-12:22:48.418 13ff71 Delete type=0 #4
+2021/04/21-12:22:48.418 1433e7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/21-12:22:48.419 1433e7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2021/04/21-12:22:48.419 1433e7 Compacting 1@1 + 1@2 files
+2021/04/21-12:22:48.420 1433e7 Generated table #8@1: 5 keys, 237 bytes
+2021/04/21-12:22:48.420 1433e7 Compacted 1@1 + 1@2 files => 237 bytes
+2021/04/21-12:22:48.421 1433e7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/21-12:22:48.421 1433e7 Delete type=2 #5
+2021/04/21-12:22:48.421 1433e7 Delete type=2 #7
+2021/04/21-12:22:48.421 1433e7 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

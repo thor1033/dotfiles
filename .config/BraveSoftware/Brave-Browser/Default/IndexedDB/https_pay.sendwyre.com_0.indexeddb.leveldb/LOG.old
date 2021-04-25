@@ -1,0 +1,37 @@
+2021/04/08-11:15:36.704 862dc Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pay.sendwyre.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/08-11:15:36.705 862dc Recovering log #6
+2021/04/08-11:15:36.705 862dc Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pay.sendwyre.com_0.indexeddb.leveldb/000006.log 
+2021/04/08-11:15:37.413 893f1 Level-0 table #11: started
+2021/04/08-11:15:37.414 893f1 Level-0 table #11: 619 bytes OK
+2021/04/08-11:15:37.415 893f1 Delete type=0 #6
+2021/04/08-11:15:37.415 893f1 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/08-11:15:37.415 893f1 Level-0 table #13: started
+2021/04/08-11:15:37.416 893f1 Level-0 table #13: 494 bytes OK
+2021/04/08-11:15:37.416 893f1 Delete type=0 #10
+2021/04/08-11:15:37.416 893f1 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 59 : 0
+2021/04/08-11:15:37.416 893f1 Compacting 1@0 + 1@1 files
+2021/04/08-11:15:37.417 893f1 Generated table #14@0: 4 keys, 259 bytes
+2021/04/08-11:15:37.417 893f1 Compacted 1@0 + 1@1 files => 259 bytes
+2021/04/08-11:15:37.418 893f1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/08-11:15:37.418 893f1 Delete type=2 #13
+2021/04/08-11:15:37.418 8a3b7 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 59 : 0 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/08-11:15:39.419 8a3b7 Level-0 table #16: started
+2021/04/08-11:15:39.420 8a3b7 Level-0 table #16: 237 bytes OK
+2021/04/08-11:15:39.420 8a3b7 Delete type=0 #12
+2021/04/08-11:15:39.420 8a3b7 Delete type=2 #11
+2021/04/08-11:15:39.420 8a3b7 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 60 : 0
+2021/04/08-11:15:39.420 8a3b7 Compacting 1@0 + 1@1 files
+2021/04/08-11:15:39.421 8a3b7 Generated table #17@0: 3 keys, 215 bytes
+2021/04/08-11:15:39.421 8a3b7 Compacted 1@0 + 1@1 files => 215 bytes
+2021/04/08-11:15:39.421 8a3b7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/04/08-11:15:39.421 8a3b7 Delete type=2 #14
+2021/04/08-11:15:39.421 8a3b7 Delete type=2 #16
+2021/04/08-11:15:39.421 8a3b7 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 60 : 0 .. (end); will stop at (end)
+2021/04/08-11:15:39.422 8a3b7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 62 : 1
+2021/04/08-11:15:39.422 8a3b7 Compacting 1@1 + 1@2 files
+2021/04/08-11:15:39.422 8a3b7 Generated table #18@1: 5 keys, 237 bytes
+2021/04/08-11:15:39.422 8a3b7 Compacted 1@1 + 1@2 files => 237 bytes
+2021/04/08-11:15:39.422 8a3b7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/08-11:15:39.422 8a3b7 Delete type=2 #8
+2021/04/08-11:15:39.422 8a3b7 Delete type=2 #17
+2021/04/08-11:15:39.423 8a3b7 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 62 : 1 .. (end); will stop at (end)

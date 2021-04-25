@@ -1,0 +1,15 @@
+2021/04/11-09:11:55.316 2ca09 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/11-09:11:55.316 2ca09 Recovering log #55
+2021/04/11-09:11:55.316 2ca09 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/000055.log 
+2021/04/11-10:24:29.045 6fa7d Level-0 table #60: started
+2021/04/11-10:24:29.051 6fa7d Level-0 table #60: 957 bytes OK
+2021/04/11-10:24:29.052 6fa7d Delete type=0 #55
+2021/04/11-10:24:29.052 6fa7d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/11-10:24:29.052 6fa7d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x005\x009\x002\x008\x005\x001\x009\x001\x002' @ 2042 : 1
+2021/04/11-10:24:29.052 6fa7d Compacting 1@1 + 1@2 files
+2021/04/11-10:24:29.054 6fa7d Generated table #61@1: 56 keys, 2593 bytes
+2021/04/11-10:24:29.054 6fa7d Compacted 1@1 + 1@2 files => 2593 bytes
+2021/04/11-10:24:29.054 6fa7d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/11-10:24:29.055 6fa7d Delete type=2 #60
+2021/04/11-10:24:29.055 6fa7d Delete type=2 #57
+2021/04/11-10:24:29.055 6fa7d Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x005\x009\x002\x008\x005\x001\x009\x001\x002' @ 2042 : 1 .. (end); will stop at (end)

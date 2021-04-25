@@ -1,0 +1,17 @@
+2021/04/04-21:23:12.015 24b0 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pancakebunny.finance_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/04-21:23:12.244 68e Level-0 table #5: started
+2021/04/04-21:23:12.244 68e Level-0 table #5: 630 bytes OK
+2021/04/04-21:23:12.245 68e Delete type=0 #3
+2021/04/04-21:23:12.247 68e Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/04/04-21:23:35.972 68e Level-0 table #7: started
+2021/04/04-21:23:35.978 68e Level-0 table #7: 1890 bytes OK
+2021/04/04-21:23:35.979 68e Delete type=0 #4
+2021/04/04-21:23:35.979 68e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/04-21:23:35.980 68e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x006\x000\x000\x007\x005\x004\x004\x006\x006\x000\x006\x009\x00:\x00w\x00e\x00b\x00:\x00d\x00d\x00d\x000\x009\x00b\x007\x006\x001\x005\x00c\x009\x00a\x00b\x008\x00b\x000\x005\x004\x00d\x001\x00c' @ 68 : 1
+2021/04/04-21:23:35.980 68e Compacting 1@1 + 1@2 files
+2021/04/04-21:23:35.981 68e Generated table #8@1: 19 keys, 1235 bytes
+2021/04/04-21:23:35.981 68e Compacted 1@1 + 1@2 files => 1235 bytes
+2021/04/04-21:23:35.982 68e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/04-21:23:35.982 68e Delete type=2 #5
+2021/04/04-21:23:35.982 68e Delete type=2 #7
+2021/04/04-21:23:35.982 68e Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x006\x000\x000\x007\x005\x004\x004\x006\x006\x000\x006\x009\x00:\x00w\x00e\x00b\x00:\x00d\x00d\x00d\x000\x009\x00b\x007\x006\x001\x005\x00c\x009\x00a\x00b\x008\x00b\x000\x005\x004\x00d\x001\x00c' @ 68 : 1 .. (end); will stop at (end)

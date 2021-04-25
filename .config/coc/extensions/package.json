@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-python": ">=1.2.13",
+    "coc-vimtex": ">=1.0.4"
+  }
+}

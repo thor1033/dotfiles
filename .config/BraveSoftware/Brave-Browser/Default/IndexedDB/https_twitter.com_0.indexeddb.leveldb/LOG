@@ -1,0 +1,5 @@
+2021/03/14-21:41:38.127 2a38 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/14-21:45:15.448 2a5b Level-0 table #5: started
+2021/03/14-21:45:15.450 2a5b Level-0 table #5: 6578 bytes OK
+2021/03/14-21:45:15.451 2a5b Delete type=0 #3
+2021/03/14-21:45:15.451 2a5b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

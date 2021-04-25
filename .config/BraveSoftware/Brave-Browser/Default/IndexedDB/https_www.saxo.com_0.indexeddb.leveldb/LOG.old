@@ -1,0 +1,15 @@
+2021/04/07-10:18:57.790 64cf9 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.saxo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/07-10:18:57.790 64cf9 Recovering log #7
+2021/04/07-10:18:57.790 64cf9 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.saxo.com_0.indexeddb.leveldb/000007.log 
+2021/04/07-10:22:02.778 64cf9 Level-0 table #11: started
+2021/04/07-10:22:02.779 64cf9 Level-0 table #11: 190 bytes OK
+2021/04/07-10:22:02.780 64cf9 Delete type=0 #7
+2021/04/07-10:22:02.780 64cf9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/07-10:22:02.781 64cf9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 44 : 1
+2021/04/07-10:22:02.781 64cf9 Compacting 1@1 + 1@2 files
+2021/04/07-10:22:02.782 64cf9 Generated table #12@1: 18 keys, 492 bytes
+2021/04/07-10:22:02.782 64cf9 Compacted 1@1 + 1@2 files => 492 bytes
+2021/04/07-10:22:02.782 64cf9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/07-10:22:02.783 64cf9 Delete type=2 #5
+2021/04/07-10:22:02.783 64cf9 Delete type=2 #11
+2021/04/07-10:22:02.783 64cf9 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 44 : 1 .. (end); will stop at (end)

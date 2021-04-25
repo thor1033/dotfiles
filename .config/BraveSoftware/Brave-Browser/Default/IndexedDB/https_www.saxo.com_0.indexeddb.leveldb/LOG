@@ -1,0 +1,8 @@
+2021/04/10-11:50:59.816 3beaa Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.saxo.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/10-11:50:59.817 3beaa Recovering log #10
+2021/04/10-11:50:59.817 3beaa Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.saxo.com_0.indexeddb.leveldb/000010.log 
+2021/04/10-11:53:02.217 3beaa Level-0 table #15: started
+2021/04/10-11:53:02.217 3beaa Level-0 table #15: 0 bytes OK
+2021/04/10-11:53:02.220 3beaa Delete type=0 #10
+2021/04/10-11:53:02.220 3beaa Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/10-11:53:02.221 3beaa Manual compaction at level-1 from (begin) .. (end); will stop at (end)

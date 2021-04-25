@@ -1,0 +1,15 @@
+2021/04/23-10:54:56.828 246e Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_playchainmonsters.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/23-10:54:56.828 246e Recovering log #19
+2021/04/23-10:54:56.828 246e Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_playchainmonsters.com_0.indexeddb.leveldb/000019.log 
+2021/04/23-10:55:33.014 246e Level-0 table #24: started
+2021/04/23-10:55:33.018 246e Level-0 table #24: 774 bytes OK
+2021/04/23-10:55:33.019 246e Delete type=0 #19
+2021/04/23-10:55:33.019 246e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/23-10:55:33.019 246e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x11\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00s\x00t\x00o\x00r\x00e\x00/' @ 266 : 1
+2021/04/23-10:55:33.019 246e Compacting 1@1 + 1@2 files
+2021/04/23-10:55:33.020 246e Generated table #25@1: 22 keys, 747 bytes
+2021/04/23-10:55:33.020 246e Compacted 1@1 + 1@2 files => 747 bytes
+2021/04/23-10:55:33.020 246e compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/23-10:55:33.021 246e Delete type=2 #21
+2021/04/23-10:55:33.021 246e Delete type=2 #24
+2021/04/23-10:55:33.021 246e Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x11\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00s\x00t\x00o\x00r\x00e\x00/' @ 266 : 1 .. (end); will stop at (end)

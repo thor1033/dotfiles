@@ -1,0 +1,373 @@
+{
+   "checksum": "7c25515e130829bda871869803baad3f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13259528971729623",
+               "guid": "68672865-69bb-403c-ba2f-8df6010fa432",
+               "id": "14",
+               "name": "Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap",
+               "type": "url",
+               "url": "https://coinmarketcap.com/"
+            }, {
+               "children": [ {
+                  "date_added": "13260366303750525",
+                  "guid": "722b96c9-b2ab-43a9-9e4c-2ed2b6632363",
+                  "id": "36",
+                  "name": "BTC-DRGN Dragonchain - Bittrex",
+                  "type": "url",
+                  "url": "https://global.bittrex.com/Market/Index?MarketName=BTC-DRGN"
+               }, {
+                  "date_added": "13260537040495850",
+                  "guid": "80b69709-e555-4ecb-9566-c26b40c9722b",
+                  "id": "38",
+                  "name": "(0.00350595) BTC-LTC Litecoin - Bittrex",
+                  "type": "url",
+                  "url": "https://global.bittrex.com/Market/Index?MarketName=BTC-LTC"
+               }, {
+                  "date_added": "13260537056350393",
+                  "guid": "f2ce60f4-720c-4acd-abc5-1c2a719edd26",
+                  "id": "39",
+                  "name": "(0.03105419) BTC-ETH Ethereum - Bittrex",
+                  "type": "url",
+                  "url": "https://global.bittrex.com/Market/Index?MarketName=BTC-ETH"
+               } ],
+               "date_added": "13260366291415796",
+               "date_modified": "13260537070667232",
+               "guid": "60074f8b-a5a0-4311-b0b9-3329e20e6f88",
+               "id": "34",
+               "name": "Bittrex",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13260537070667232",
+                  "guid": "162325ad-7085-4a24-b590-340e4f8aaccd",
+                  "id": "40",
+                  "name": "Litcoin— TradingView",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/LTCBTC/"
+               }, {
+                  "date_added": "13260537076838640",
+                  "guid": "230ed28b-8b5d-4f24-8f6d-16294eac065c",
+                  "id": "41",
+                  "name": "Ethereum — TradingView",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/ETHUSD/"
+               }, {
+                  "date_added": "13260537084132600",
+                  "guid": "86fbac47-76b6-46ab-9d03-2d53ba506613",
+                  "id": "42",
+                  "name": "Bitcoin — TradingView",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/BTCUSD/"
+               }, {
+                  "date_added": "13260537088654205",
+                  "guid": "11aaa87e-5d29-4614-b387-04fa9a3414bb",
+                  "id": "43",
+                  "name": "TTCF-Tradingview",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/NASDAQ-TTCF/"
+               }, {
+                  "date_added": "13260537115958928",
+                  "guid": "e601c8a0-dd8c-4d94-af67-ae9a0fd9c2d3",
+                  "id": "44",
+                  "name": "PLTR-Tradingview",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/NYSE-PLTR/"
+               }, {
+                  "date_added": "13259843994252017",
+                  "guid": "62f27ba2-7e26-460a-b1db-a1b466e75bc1",
+                  "id": "20",
+                  "name": "DRGNBTC Charts and Quotes — TradingView",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/symbols/DRGNBTC/?exchange=KUCOIN"
+               }, {
+                  "date_added": "13259528715434747",
+                  "guid": "37556e4a-280d-44a6-b408-96a794ba82cf",
+                  "id": "12",
+                  "name": "stocks",
+                  "type": "url",
+                  "url": "https://www.tradingview.com/"
+               } ],
+               "date_added": "13260366291415839",
+               "date_modified": "13260537229443575",
+               "guid": "d6d1cb7b-7ec2-4d12-8443-99702839523e",
+               "id": "35",
+               "name": "TradingView",
+               "type": "folder"
+            }, {
+               "date_added": "13260707389278157",
+               "guid": "7de719f8-4adb-408a-84f2-e6661d6454c0",
+               "id": "51",
+               "name": "CoinMarketCal - Cryptocurrency Calendar",
+               "type": "url",
+               "url": "https://coinmarketcal.com/en/"
+            }, {
+               "date_added": "13262475694482255",
+               "guid": "44f70d13-2bf3-445e-839a-04d6346fcd9a",
+               "id": "81",
+               "name": "Bunny",
+               "type": "url",
+               "url": "https://www.dextools.io/app/uniswap/pair-explorer/0x9ddd23c1ec9c69bc833008d4d2f86f6aa491bc91"
+            }, {
+               "date_added": "13263296063585181",
+               "guid": "74649a8d-2b80-4c6e-950e-675ba597676f",
+               "id": "83",
+               "name": "BSKT DEXTools",
+               "type": "url",
+               "url": "https://www.dextools.io/app/uniswap/pair-explorer/0x1d470e0e3dffbba05e4f56541416a69574675889"
+            } ],
+            "date_added": "13259528731859464",
+            "date_modified": "13263823196386268",
+            "guid": "e119bb91-5bd8-4c20-bbc7-c27c0cf85d7b",
+            "id": "13",
+            "name": "stocks",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13260011396753220",
+               "guid": "6dbdb85e-f030-4fe1-b488-967cf33318e1",
+               "id": "25",
+               "name": "GitHub - LukeSmithxyz/dwm: Luke's build of dwm",
+               "type": "url",
+               "url": "https://github.com/LukeSmithxyz/dwm"
+            }, {
+               "date_added": "13259839522437449",
+               "guid": "315c77a3-ec57-4c26-96cc-8c12da1d2a01",
+               "id": "18",
+               "name": "xmonad: A tiling window manager",
+               "type": "url",
+               "url": "https://hackage.haskell.org/package/xmonad"
+            }, {
+               "date_added": "13260304756646279",
+               "guid": "326b326c-7221-4c02-94b7-9c1390d6164f",
+               "id": "31",
+               "name": "morhetz/gruvbox: Retro groove color scheme for Vim",
+               "type": "url",
+               "url": "https://github.com/morhetz/gruvbox"
+            }, {
+               "children": [ {
+                  "date_added": "13261047836552501",
+                  "guid": "7ada2b09-d7c1-427c-8aaf-b1709779a6c2",
+                  "id": "55",
+                  "name": "ms-jpq/chadtree: File manager for Neovim. Better than NERDTree.",
+                  "type": "url",
+                  "url": "https://github.com/ms-jpq/chadtree"
+               } ],
+               "date_added": "13261047850442291",
+               "date_modified": "13261053091733113",
+               "guid": "7fc318d7-450a-454d-958d-312a6a6eecd5",
+               "id": "56",
+               "name": "VimPlugins",
+               "type": "folder"
+            }, {
+               "date_added": "13261483177234622",
+               "guid": "52e8ee84-dd33-48d0-a645-208dcc06ef2e",
+               "id": "66",
+               "name": "ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/"
+            }, {
+               "date_added": "13261511746107664",
+               "guid": "85f33055-1fd0-4ea1-bf57-76727cd34ba2",
+               "id": "68",
+               "name": "New Tab",
+               "type": "url",
+               "url": "chrome://newtab/"
+            }, {
+               "date_added": "13261691634755078",
+               "guid": "fdef5caf-809f-4c3c-8ff1-35001f197a18",
+               "id": "74",
+               "name": "Linode",
+               "type": "url",
+               "url": "https://cloud.linode.com/linodes"
+            }, {
+               "date_added": "13261691828608091",
+               "guid": "65fe90be-1a53-46c2-8431-d361ee5851b4",
+               "id": "75",
+               "name": "Vultr",
+               "type": "url",
+               "url": "https://my.vultr.com/"
+            }, {
+               "date_added": "13261827031653094",
+               "guid": "16a2ba10-7395-4bc9-9d6c-89fcde3fadaa",
+               "id": "77",
+               "name": "ranger shortcuts (keybindings)",
+               "type": "url",
+               "url": "https://gist.github.com/rpietro/f606e1a9cc5eb9e9ef8666b441c31648"
+            }, {
+               "date_added": "13261938765388464",
+               "guid": "852c09c5-24c1-4daa-9f75-a174ae7e7931",
+               "id": "79",
+               "name": "LukeSmithxyz/voidrice: My dotfiles (deployed by LARBS)",
+               "type": "url",
+               "url": "https://github.com/LukeSmithxyz/voidrice"
+            }, {
+               "date_added": "13263823196386268",
+               "guid": "75088be4-b8c4-4276-8fd4-ee92b53c45be",
+               "id": "85",
+               "name": "GitHub",
+               "type": "url",
+               "url": "https://github.com/"
+            } ],
+            "date_added": "13260011414370451",
+            "date_modified": "13263823200271545",
+            "guid": "4b4ccc19-daf6-47d8-b07d-09d9f16a6a92",
+            "id": "26",
+            "name": "Linux",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13260107797023341",
+               "guid": "b1bb1501-ac3d-4a67-b887-3f0214c5c025",
+               "id": "28",
+               "name": "Hjem - KUnet",
+               "type": "url",
+               "url": "https://kunet.ku.dk/"
+            }, {
+               "date_added": "13261219521056977",
+               "guid": "635cddfe-299c-4764-ac65-408b578a1888",
+               "id": "62",
+               "name": "Absalon",
+               "type": "url",
+               "url": "https://absalon.ku.dk/"
+            }, {
+               "date_added": "13261219535263485",
+               "guid": "7cb2687b-ccbf-4a86-ba32-954272e3b4ea",
+               "id": "63",
+               "name": "GSS",
+               "type": "url",
+               "url": "https://absalon.ku.dk/courses/46917"
+            }, {
+               "date_added": "13261219542614634",
+               "guid": "f8099b47-fefd-4355-8ed9-fe179587e8f0",
+               "id": "64",
+               "name": "DMFS",
+               "type": "url",
+               "url": "https://absalon.ku.dk/courses/46839"
+            }, {
+               "children": [ {
+                  "date_added": "13261683057413972",
+                  "guid": "953dc84c-0454-4ab5-a573-663b8cd50cc9",
+                  "id": "72",
+                  "name": "Symbolab Math Solver - Step by Step calculator",
+                  "type": "url",
+                  "url": "https://www.symbolab.com/"
+               } ],
+               "date_added": "13261683077857199",
+               "date_modified": "13261691634755078",
+               "guid": "8afaf000-49a2-407f-aa15-6fc542e36174",
+               "id": "73",
+               "name": "Math",
+               "type": "folder"
+            } ],
+            "date_added": "13260107812523635",
+            "date_modified": "13261483177234622",
+            "guid": "9a039681-2f85-4512-85db-62bc6951a144",
+            "id": "29",
+            "name": "Skole",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13261181299451430",
+               "guid": "775274ba-5bd8-4678-9553-6faac2a64ef1",
+               "id": "60",
+               "name": "The Latin - English dictionary | Glosbe",
+               "type": "url",
+               "url": "https://glosbe.com/la/en"
+            } ],
+            "date_added": "13260537256507395",
+            "date_modified": "13261219521056977",
+            "guid": "70718248-048d-4101-afcf-9773e5f99f9f",
+            "id": "46",
+            "name": "Sprog",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13259781739994416",
+               "guid": "ca441208-3a80-49e0-9196-7950c74afd13",
+               "id": "16",
+               "name": "Iliad - Wikipedia",
+               "type": "url",
+               "url": "https://en.wikipedia.org/wiki/Iliad"
+            } ],
+            "date_added": "13260537271198744",
+            "date_modified": "13260537276331483",
+            "guid": "77fffd6f-75ae-4821-bd55-0e088a13ece9",
+            "id": "47",
+            "name": "Historie",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13260537373423636",
+               "guid": "bfba07af-010b-4b50-9112-69d336a4d37a",
+               "id": "48",
+               "name": "Chili Con Carne - opskrift på den dejlige livret fyldt med smag",
+               "type": "url",
+               "url": "https://www.valdemarsro.dk/chili-con-carne/"
+            }, {
+               "date_added": "13260720273174326",
+               "guid": "22eb8107-18e2-4291-83fe-676e4522b53e",
+               "id": "53",
+               "name": "Based Cooking",
+               "type": "url",
+               "url": "https://based.cooking/"
+            } ],
+            "date_added": "13260537402331726",
+            "date_modified": "13261047836552501",
+            "guid": "34b98a59-9842-4d5c-acc4-50692fffd42d",
+            "id": "49",
+            "name": "Opskrifter",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13261053091733113",
+               "guid": "f9ad7bcf-f75b-4b8a-9d87-44625826eef5",
+               "id": "57",
+               "name": "Tilbud Føtex",
+               "type": "url",
+               "url": "https://avis.foetex.dk/denne-uges-avis/"
+            }, {
+               "date_added": "13261611923410422",
+               "guid": "2c993913-e423-4717-9604-375d9117799e",
+               "id": "70",
+               "name": "Tilbudsavis | Netto",
+               "type": "url",
+               "url": "https://netto.dk/tilbudsavis/#"
+            } ],
+            "date_added": "13261053117137791",
+            "date_modified": "13261683057413972",
+            "guid": "2c57ce71-b596-4873-93c7-49eb9c2f1cc0",
+            "id": "58",
+            "name": "Inkøb",
+            "type": "folder"
+         } ],
+         "date_added": "13259526524304873",
+         "date_modified": "13260537271199248",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13259526524304874",
+         "date_modified": "13262475706891290",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13259526524304875",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

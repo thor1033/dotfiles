@@ -1,0 +1,5 @@
+2021/03/24-08:52:30.318 4e0 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.engadget.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/24-08:52:44.931 4e0 Level-0 table #5: started
+2021/03/24-08:52:44.932 4e0 Level-0 table #5: 1016 bytes OK
+2021/03/24-08:52:44.934 4e0 Delete type=0 #3
+2021/03/24-08:52:44.934 4e0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

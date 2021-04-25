@@ -1,0 +1,5 @@
+2021/03/25-22:24:53.549 cf6 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_translate.yandex.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/25-22:24:56.588 cf6 Level-0 table #5: started
+2021/03/25-22:24:56.592 cf6 Level-0 table #5: 2509 bytes OK
+2021/03/25-22:24:56.592 cf6 Delete type=0 #3
+2021/03/25-22:24:56.592 cf6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

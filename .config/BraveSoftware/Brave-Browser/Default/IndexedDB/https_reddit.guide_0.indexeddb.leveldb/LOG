@@ -1,0 +1,5 @@
+2021/03/16-19:39:25.754 13e3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_reddit.guide_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/16-19:40:02.431 13f3 Level-0 table #5: started
+2021/03/16-19:40:02.432 13f3 Level-0 table #5: 2590 bytes OK
+2021/03/16-19:40:02.432 13f3 Delete type=0 #3
+2021/03/16-19:40:02.432 13f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

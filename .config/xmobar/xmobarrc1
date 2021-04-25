@@ -1,0 +1,54 @@
+-- http://projects.haskell.org/xmobar/
+-- install xmobar with these flags: --flags="with_alsa" --flags="with_mpd" --flags="with_xft"  OR --flags="all_extensions"
+-- you can find weather location codes here: http://weather.noaa.gov/index.html
+
+Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true"
+       , additionalFonts = ["xft:Symbola:pixelsize=14",
+       			    "xft:Symbola:pixelsize=14"]
+       , bgColor = "#282828"
+       , fgColor = "#ebdbb2"
+       , position = Static { xpos = 1935 , ypos = 10, width = 1890, height = 24 }
+       , lowerOnStart = True
+       , hideOnStart = False
+       , allDesktops = True
+       , persistent = True
+       , alpha = 185
+       , textOffset = 15
+       , iconRoot = "/home/dt/.xmonad/xpm/"  -- default: "."
+       , commands = [
+       		      --Music
+		      --Run Progress "mpc" ["sed -n 2p"] 10
+                      -- Time and date
+                      Run Date "<fn=1>📅</fn>  %b %d %Y - (%H:%M) " "date" 50
+                      -- Network up and down
+                    , Run Network "enp6s0" ["-t", "<fn=1>\xf0aa</fn>  <rx>kb  <fn=1>\xf0ab</fn>  <tx>kb"] 20
+                      -- Cpu usage in percent
+                    , Run Cpu ["-t", "<fn=1>🧠</fn>  cpu: (<total>%)","-H","50","--high","red"] 20
+                      -- Ram used number and percent
+                    , Run Memory ["-t", "<fn=1>🏢</fn>  mem: <used>M (<usedratio>%)"] 20
+                      -- Disk space free
+                    , Run DiskU [("/", "<fn=1>💾</fn>  hdd: <free> free")] [] 60
+                      -- Runs custom script to check for pacman updates.
+                      -- This script is in my dotfiles repo in .local/bin.
+                      --, Run Com "/home/thor/.local/bin/pacupdate" [] "pacupdate" 36000
+                      -- Runs a standard shell command 'uname -r' to get kernel version
+                    , Run Com "uname" ["-r"] "" 3600
+		    , Run Com "newhotmail" [] "hotmail" 60
+		    , Run Com "newkumail" [] "kumail" 60
+		    , Run Com "volume" [] "volume" 1
+		    , Run Com "btcprice" [] "btcprice" 60
+                      -- Prints out the left side items such as workspaces, layout, etc.
+                      -- The workspaces are 'clickable' in my configs.
+                    , Run UnsafeStdinReader
+		    , Run CoreTemp       [ "--template" ,"<fn=1>🔥</fn> Temp: <core0>°C|<core1>°C"
+                             , "--Low"      , "70"        -- units: °C
+                             , "--High"     , "80"        -- units: °C
+                             , "--low"      , "darkgreen"
+                             , "--normal"   , "darkorange"
+                             , "--high"     , "darkred"
+                             ] 50
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "<action=`xdotool key control+alt+g`><icon=haskell_20.xpm/> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#d79921><fn=1>🪙</fn> btc: %btcprice% $</fc><fc=#a89984>  </fc><fc=#cc241d><fn=1>🏫</fn> KUmail: %kumail%</fc> <fc=#a89984> </fc> <fc=#d3869b><fn=1>📫</fn> hotmail: %hotmail% </fc><fc=#a89984> </fc> <fc=#689d6a><fn=1>🔊</fn> %volume%</fc><fc=#a89984> </fc> <fc=#458588> %date%  </fc>"
+       }

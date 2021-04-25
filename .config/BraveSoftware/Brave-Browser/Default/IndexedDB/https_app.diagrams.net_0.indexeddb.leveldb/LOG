@@ -1,0 +1,8 @@
+2021/03/28-22:27:34.681 3bd2 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/28-22:27:34.681 3bd2 Recovering log #45
+2021/03/28-22:27:34.681 3bd2 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.diagrams.net_0.indexeddb.leveldb/000045.log 
+2021/03/28-23:08:07.491 4070 Level-0 table #50: started
+2021/03/28-23:08:07.491 4070 Level-0 table #50: 0 bytes OK
+2021/03/28-23:08:07.497 4070 Delete type=0 #45
+2021/03/28-23:08:07.497 4070 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/03/28-23:08:07.498 4070 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

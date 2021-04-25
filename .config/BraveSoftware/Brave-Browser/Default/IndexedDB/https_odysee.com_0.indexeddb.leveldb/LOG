@@ -1,0 +1,15 @@
+2021/04/25-11:11:40.469 5fa3e Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/25-11:11:40.469 5fa3e Recovering log #143
+2021/04/25-11:11:40.469 5fa3e Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/000143.log 
+2021/04/25-11:40:35.265 72681 Level-0 table #148: started
+2021/04/25-11:40:35.269 72681 Level-0 table #148: 714367 bytes OK
+2021/04/25-11:40:35.270 72681 Delete type=0 #143
+2021/04/25-11:40:35.270 72681 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/25-11:40:35.270 72681 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 15964 : 1
+2021/04/25-11:40:35.270 72681 Compacting 1@1 + 1@2 files
+2021/04/25-11:40:35.271 72681 Generated table #149@1: 29 keys, 14100 bytes
+2021/04/25-11:40:35.271 72681 Compacted 1@1 + 1@2 files => 14100 bytes
+2021/04/25-11:40:35.271 72681 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/25-11:40:35.271 72681 Delete type=2 #145
+2021/04/25-11:40:35.271 72681 Delete type=2 #148
+2021/04/25-11:40:35.272 72681 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 15964 : 1 .. (end); will stop at (end)

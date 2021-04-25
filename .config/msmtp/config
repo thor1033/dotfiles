@@ -1,0 +1,22 @@
+account thor_simonsen@hotmail.com
+host smtp.office365.com
+port 587
+from thor_simonsen@hotmail.com
+user thor_simonsen@hotmail.com
+passwordeval "pass thor_simonsen@hotmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/thor/.config/msmtp/msmtp.log
+
+account zvr697@alumni.ku.dk
+host smtp.office365.dk
+port 587
+from zvr697@alumni.ku.dk
+user zvr697@alumni.ku.dk
+passwordeval "pass zvr697@alumni.ku.dk"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/thor/.config/msmtp/msmtp.log
+

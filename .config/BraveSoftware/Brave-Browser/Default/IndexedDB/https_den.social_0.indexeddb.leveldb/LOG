@@ -1,0 +1,15 @@
+2021/04/25-11:00:51.829 58d56 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_den.social_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/25-11:00:51.829 58d56 Recovering log #119
+2021/04/25-11:00:51.829 58d56 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_den.social_0.indexeddb.leveldb/000119.log 
+2021/04/25-11:05:47.325 50c57 Level-0 table #124: started
+2021/04/25-11:05:47.325 50c57 Level-0 table #124: 14594 bytes OK
+2021/04/25-11:05:47.326 50c57 Delete type=0 #119
+2021/04/25-11:05:47.326 50c57 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/25-11:05:47.326 50c57 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x01\x03\x00D\x00e\x00n' @ 4361 : 1
+2021/04/25-11:05:47.326 50c57 Compacting 1@1 + 1@2 files
+2021/04/25-11:05:47.326 50c57 Generated table #125@1: 205 keys, 16586 bytes
+2021/04/25-11:05:47.326 50c57 Compacted 1@1 + 1@2 files => 16586 bytes
+2021/04/25-11:05:47.327 50c57 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/25-11:05:47.327 50c57 Delete type=2 #121
+2021/04/25-11:05:47.327 50c57 Delete type=2 #124
+2021/04/25-11:05:47.327 50c57 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x03\x00D\x00e\x00n' @ 4361 : 1 .. (end); will stop at (end)

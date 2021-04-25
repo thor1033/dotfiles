@@ -1,0 +1,5 @@
+2021/03/16-11:00:00.700 40b7 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/03/16-11:00:33.297 40b7 Level-0 table #5: started
+2021/03/16-11:00:33.298 40b7 Level-0 table #5: 2351 bytes OK
+2021/03/16-11:00:33.300 40b7 Delete type=0 #3
+2021/03/16-11:00:33.300 40b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
