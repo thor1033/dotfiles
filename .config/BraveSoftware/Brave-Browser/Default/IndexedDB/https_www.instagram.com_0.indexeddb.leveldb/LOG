@@ -1,8 +1,15 @@
-2021/04/18-00:24:20.174 aec72 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/18-00:24:20.174 aec72 Recovering log #34
-2021/04/18-00:24:20.174 aec72 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000034.log 
-2021/04/18-00:24:34.257 b18c8 Level-0 table #38: started
-2021/04/18-00:24:34.257 b18c8 Level-0 table #38: 0 bytes OK
-2021/04/18-00:24:34.262 b18c8 Delete type=0 #34
-2021/04/18-00:24:34.262 b18c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/18-00:24:34.262 b18c8 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2021/05/11-10:37:04.958 6afd0 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/11-10:37:04.958 6afd0 Recovering log #51
+2021/05/11-10:37:04.958 6afd0 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000051.log 
+2021/05/11-10:37:39.007 69aa5 Level-0 table #55: started
+2021/05/11-10:37:39.008 69aa5 Level-0 table #55: 190 bytes OK
+2021/05/11-10:37:39.008 69aa5 Delete type=0 #51
+2021/05/11-10:37:39.008 69aa5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/11-10:37:39.009 69aa5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 49 : 1
+2021/05/11-10:37:39.009 69aa5 Compacting 1@1 + 1@2 files
+2021/05/11-10:37:39.009 69aa5 Generated table #56@1: 18 keys, 479 bytes
+2021/05/11-10:37:39.009 69aa5 Compacted 1@1 + 1@2 files => 479 bytes
+2021/05/11-10:37:39.009 69aa5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/11-10:37:39.009 69aa5 Delete type=2 #46
+2021/05/11-10:37:39.009 69aa5 Delete type=2 #55
+2021/05/11-10:37:39.010 69aa5 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 49 : 1 .. (end); will stop at (end)

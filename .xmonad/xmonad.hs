@@ -81,7 +81,7 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor  = "#928374"
+myNormalBorderColor  = "#282828"
 myFocusedBorderColor = "#cc241d"
 
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
@@ -115,13 +115,13 @@ myKeys =
 	--Launch Programs
 	[("M-<Return>", spawn (myTerminal))
 	,("M-w",        spawn (myBrowser))
-	,("M-d",	spawn ("dmenu_run -fn 'Mononoki' -nb '#282828' -nf '#ebdbb2' -sb '#98971a' -sf '#282828'"))
+	,("M-d",	spawn ("rofi -show run -modi run"))
 	,("M-e",	spawn ("st -e neomutt"))
 	,("M-m",        spawn ("st -e ncmpcpp"))
 	,("M-r",	spawn ("st -e ranger"))
 	,("M-n",	spawn ("st -e nvim"))
 	,("M-c",	spawn ("st -e calcurse"))
-	,("M-æ",	spawn ("dmenuemoji"))
+	,("M-æ",	spawn ("rofi -show emoji -modi emoji"))
 	,("M-p",	spawn ("xournalpp"))
 
 	--Navigation

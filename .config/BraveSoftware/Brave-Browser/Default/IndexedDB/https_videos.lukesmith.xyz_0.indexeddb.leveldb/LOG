@@ -1,36 +1,15 @@
-2021/04/21-22:06:40.158 a9e69 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_videos.lukesmith.xyz_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/21-22:06:40.158 a9e69 Recovering log #276
-2021/04/21-22:06:40.158 a9e69 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_videos.lukesmith.xyz_0.indexeddb.leveldb/000276.log 
-2021/04/21-22:06:51.367 a9e67 Level-0 table #282: started
-2021/04/21-22:06:51.370 a9e67 Level-0 table #282: 59561 bytes OK
-2021/04/21-22:06:51.371 a9e67 Delete type=0 #276
-2021/04/21-22:06:51.371 a9e67 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
-2021/04/21-22:06:53.219 a9e65 Level-0 table #284: started
-2021/04/21-22:06:53.222 a9e65 Level-0 table #284: 4847 bytes OK
-2021/04/21-22:06:53.223 a9e65 Delete type=0 #281
-2021/04/21-22:06:53.223 a9e65 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at '\x00#\x01\x03\x03\x00\x00\x00\x00\x00\x18\x8b@' @ 351871 : 0
-2021/04/21-22:06:53.223 a9e65 Compacting 1@0 + 1@1 files
-2021/04/21-22:06:53.225 a9e65 Generated table #285@0: 429 keys, 4633 bytes
-2021/04/21-22:06:53.225 a9e65 Compacted 1@0 + 1@1 files => 4633 bytes
-2021/04/21-22:06:53.226 a9e65 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/04/21-22:06:53.226 a9e65 Delete type=2 #284
-2021/04/21-22:06:53.227 a9e65 Manual compaction at level-0 from '\x00#\x01\x03\x03\x00\x00\x00\x00\x00\x18\x8b@' @ 351871 : 0 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
-2021/04/21-23:37:54.132 130319 Compacting 1@1 + 1@2 files
-2021/04/21-23:37:54.140 130319 Generated table #286@1: 35 keys, 1483 bytes
-2021/04/21-23:37:54.140 130319 Compacted 1@1 + 1@2 files => 1483 bytes
-2021/04/21-23:37:54.143 130319 compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/04/21-23:37:54.143 130319 Delete type=2 #279
-2021/04/21-23:37:54.143 130319 Delete type=2 #285
-2021/04/21-23:37:54.143 130319 Delete type=2 #282
-2021/04/21-23:42:26.337 145ae5 Level-0 table #288: started
-2021/04/21-23:42:26.349 145ae5 Level-0 table #288: 180406 bytes OK
-2021/04/21-23:42:26.350 145ae5 Delete type=0 #283
-2021/04/21-23:42:26.350 13c36e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/21-23:42:26.350 13c36e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00$\x01\x03\x03\x00\x00\x00\x00\x00\xf8\x88@' @ 351976 : 1
-2021/04/21-23:42:26.350 13c36e Compacting 1@1 + 1@2 files
-2021/04/21-23:42:26.354 13c36e Generated table #289@1: 2444 keys, 40194 bytes
-2021/04/21-23:42:26.354 13c36e Compacted 1@1 + 1@2 files => 40194 bytes
-2021/04/21-23:42:26.354 13c36e compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/04/21-23:42:26.354 13c36e Delete type=2 #286
-2021/04/21-23:42:26.354 13c36e Delete type=2 #288
-2021/04/21-23:42:26.354 13c36e Manual compaction at level-1 from '\x00$\x01\x03\x03\x00\x00\x00\x00\x00\xf8\x88@' @ 351976 : 1 .. (end); will stop at (end)
+2021/05/04-22:35:18.953 bdf1f Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_videos.lukesmith.xyz_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/04-22:35:18.953 bdf1f Recovering log #306
+2021/05/04-22:35:18.953 bdf1f Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_videos.lukesmith.xyz_0.indexeddb.leveldb/000306.log 
+2021/05/04-23:37:33.578 e3aea Level-0 table #312: started
+2021/05/04-23:37:33.581 e3aea Level-0 table #312: 159187 bytes OK
+2021/05/04-23:37:33.588 e3aea Delete type=0 #306
+2021/05/04-23:37:33.588 e3aea Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/04-23:37:33.589 e3aea Manual compaction at level-1 from (begin) .. (end); will stop at '\x00'\x01\x03\x03\x00\x00\x00\x00\x00`\x89@' @ 376073 : 1
+2021/05/04-23:37:33.589 e3aea Compacting 1@1 + 1@2 files
+2021/05/04-23:37:33.593 e3aea Generated table #313@1: 2479 keys, 40839 bytes
+2021/05/04-23:37:33.593 e3aea Compacted 1@1 + 1@2 files => 40839 bytes
+2021/05/04-23:37:33.593 e3aea compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/04-23:37:33.594 e3aea Delete type=2 #312
+2021/05/04-23:37:33.594 e3aea Delete type=2 #309
+2021/05/04-23:37:33.594 e3aea Manual compaction at level-1 from '\x00'\x01\x03\x03\x00\x00\x00\x00\x00`\x89@' @ 376073 : 1 .. (end); will stop at (end)

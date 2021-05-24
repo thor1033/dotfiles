@@ -1,42 +1,54 @@
-2021/04/25-08:41:38.157 12be Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
-2021/04/25-08:41:38.157 12be Recovering log #307
-2021/04/25-08:41:38.159 12be Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/000307.log 
-2021/04/25-09:11:40.715 11c41 Level-0 table #311: started
-2021/04/25-09:11:40.771 11c41 Level-0 table #311: 881037 bytes OK
-2021/04/25-09:11:40.774 11c41 Delete type=0 #307
-2021/04/25-09:11:40.775 11c41 Compacting 4@0 + 1@1 files
-2021/04/25-09:11:40.789 11c41 Generated table #312@0: 1 keys, 20523 bytes
-2021/04/25-09:11:40.789 11c41 Compacted 4@0 + 1@1 files => 20523 bytes
-2021/04/25-09:11:40.789 11c41 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/04/25-09:11:40.790 11c41 Delete type=2 #311
-2021/04/25-09:11:40.790 11c41 Delete type=2 #308
-2021/04/25-09:11:40.790 11c41 Delete type=2 #306
-2021/04/25-09:11:40.790 11c41 Delete type=2 #302
-2021/04/25-09:11:40.790 11c41 Delete type=2 #304
-2021/04/25-10:08:43.170 35711 Level-0 table #314: started
-2021/04/25-10:08:43.181 35711 Level-0 table #314: 874147 bytes OK
-2021/04/25-10:08:43.182 35711 Delete type=0 #310
-2021/04/25-10:54:08.508 54960 Level-0 table #316: started
-2021/04/25-10:54:08.521 54960 Level-0 table #316: 888234 bytes OK
-2021/04/25-10:54:08.522 54960 Delete type=0 #313
-2021/04/25-11:29:47.201 61e6e Level-0 table #318: started
-2021/04/25-11:29:47.249 61e6e Level-0 table #318: 887569 bytes OK
-2021/04/25-11:29:47.253 61e6e Delete type=0 #315
-2021/04/25-12:06:26.848 83105 Level-0 table #320: started
-2021/04/25-12:06:26.864 83105 Level-0 table #320: 900586 bytes OK
-2021/04/25-12:06:26.865 83105 Delete type=0 #317
-2021/04/25-12:06:26.866 83105 Compacting 4@0 + 1@1 files
-2021/04/25-12:06:26.873 83105 Generated table #321@0: 1 keys, 22209 bytes
-2021/04/25-12:06:26.873 83105 Compacted 4@0 + 1@1 files => 22209 bytes
-2021/04/25-12:06:26.873 83105 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/04/25-12:06:26.873 83105 Delete type=2 #320
-2021/04/25-12:06:26.873 83105 Delete type=2 #312
-2021/04/25-12:06:26.873 83105 Delete type=2 #318
-2021/04/25-12:06:26.873 83105 Delete type=2 #316
-2021/04/25-12:06:26.873 83105 Delete type=2 #314
-2021/04/25-12:23:57.640 8e0b4 Level-0 table #323: started
-2021/04/25-12:23:57.657 8e0b4 Level-0 table #323: 907883 bytes OK
-2021/04/25-12:23:57.658 8e0b4 Delete type=0 #319
-2021/04/25-12:38:31.143 95c14 Level-0 table #325: started
-2021/04/25-12:38:31.164 95c14 Level-0 table #325: 907871 bytes OK
-2021/04/25-12:38:31.165 95c14 Delete type=0 #322
+2021/05/24-10:54:08.064 50245 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2021/05/24-10:54:08.065 50245 Recovering log #1580
+2021/05/24-10:54:08.074 50245 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/001580.log 
+2021/05/24-10:55:45.501 50245 Level-0 table #1585: started
+2021/05/24-10:55:45.513 50245 Level-0 table #1585: 789165 bytes OK
+2021/05/24-10:55:45.514 50245 Delete type=0 #1580
+2021/05/24-11:37:13.735 6a8d5 Level-0 table #1587: started
+2021/05/24-11:37:13.751 6a8d5 Level-0 table #1587: 781288 bytes OK
+2021/05/24-11:37:13.752 6a8d5 Delete type=0 #1584
+2021/05/24-12:27:14.952 89443 Level-0 table #1589: started
+2021/05/24-12:27:14.971 89443 Level-0 table #1589: 782105 bytes OK
+2021/05/24-12:27:14.971 89443 Delete type=0 #1586
+2021/05/24-12:52:25.180 89443 Level-0 table #1591: started
+2021/05/24-12:52:25.195 89443 Level-0 table #1591: 786313 bytes OK
+2021/05/24-12:52:25.196 89443 Delete type=0 #1588
+2021/05/24-12:52:25.196 89443 Compacting 4@0 + 1@1 files
+2021/05/24-12:52:25.202 89443 Generated table #1592@0: 2 keys, 37735 bytes
+2021/05/24-12:52:25.202 89443 Compacted 4@0 + 1@1 files => 37735 bytes
+2021/05/24-12:52:25.203 89443 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/24-12:52:25.203 89443 Delete type=2 #1589
+2021/05/24-12:52:25.203 89443 Delete type=2 #1591
+2021/05/24-12:52:25.203 89443 Delete type=2 #1585
+2021/05/24-12:52:25.203 89443 Delete type=2 #1587
+2021/05/24-12:52:25.203 89443 Delete type=2 #1582
+2021/05/24-13:12:16.993 a2aa2 Level-0 table #1594: started
+2021/05/24-13:12:17.008 a2aa2 Level-0 table #1594: 792649 bytes OK
+2021/05/24-13:12:17.009 a2aa2 Delete type=0 #1590
+2021/05/24-13:45:19.703 ba549 Level-0 table #1596: started
+2021/05/24-13:45:19.740 ba549 Level-0 table #1596: 760306 bytes OK
+2021/05/24-13:45:19.742 ba549 Delete type=0 #1593
+2021/05/24-14:33:21.342 c4531 Level-0 table #1598: started
+2021/05/24-14:33:21.355 c4531 Level-0 table #1598: 763823 bytes OK
+2021/05/24-14:33:21.356 c4531 Delete type=0 #1595
+2021/05/24-14:45:21.711 dc7f2 Level-0 table #1600: started
+2021/05/24-14:45:21.718 dc7f2 Level-0 table #1600: 771349 bytes OK
+2021/05/24-14:45:21.719 dc7f2 Delete type=0 #1597
+2021/05/24-14:45:21.720 dc7f2 Compacting 4@0 + 1@1 files
+2021/05/24-14:45:21.726 dc7f2 Generated table #1601@0: 2 keys, 39081 bytes
+2021/05/24-14:45:21.726 dc7f2 Compacted 4@0 + 1@1 files => 39081 bytes
+2021/05/24-14:45:21.726 dc7f2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/05/24-14:45:21.727 dc7f2 Delete type=2 #1594
+2021/05/24-14:45:21.727 dc7f2 Delete type=2 #1598
+2021/05/24-14:45:21.727 dc7f2 Delete type=2 #1592
+2021/05/24-14:45:21.727 dc7f2 Delete type=2 #1596
+2021/05/24-14:45:21.727 dc7f2 Delete type=2 #1600
+2021/05/24-15:23:32.325 fa6db Level-0 table #1603: started
+2021/05/24-15:23:32.355 fa6db Level-0 table #1603: 780523 bytes OK
+2021/05/24-15:23:32.358 fa6db Delete type=0 #1599
+2021/05/24-16:03:44.174 114613 Level-0 table #1605: started
+2021/05/24-16:03:44.185 114613 Level-0 table #1605: 783767 bytes OK
+2021/05/24-16:03:44.185 114613 Delete type=0 #1602
+2021/05/24-16:39:27.082 126a78 Level-0 table #1607: started
+2021/05/24-16:39:27.100 126a78 Level-0 table #1607: 786321 bytes OK
+2021/05/24-16:39:27.101 126a78 Delete type=0 #1604

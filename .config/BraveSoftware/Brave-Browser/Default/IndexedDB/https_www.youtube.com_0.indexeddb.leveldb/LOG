@@ -1,3 +1,39 @@
-2021/04/25-13:24:49.327 b3736 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/25-13:24:49.327 b3736 Recovering log #2677
-2021/04/25-13:24:49.327 b3736 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/002677.log 
+2021/05/24-14:36:36.327 cb2bd Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/24-14:36:36.328 cb2bd Recovering log #4992
+2021/05/24-14:36:36.328 cb2bd Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/004992.log 
+2021/05/24-14:44:47.251 e0a47 Level-0 table #4997: started
+2021/05/24-14:44:47.266 e0a47 Level-0 table #4997: 877650 bytes OK
+2021/05/24-14:44:47.267 e0a47 Delete type=0 #4992
+2021/05/24-14:46:16.176 e063f Compacting 1@1 + 1@2 files
+2021/05/24-14:46:16.183 e063f Generated table #4998@1: 226 keys, 32357 bytes
+2021/05/24-14:46:16.183 e063f Compacted 1@1 + 1@2 files => 32357 bytes
+2021/05/24-14:46:16.183 e063f compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/24-15:08:28.851 ec745 Level-0 table #5000: started
+2021/05/24-15:08:28.863 ec745 Level-0 table #5000: 1026154 bytes OK
+2021/05/24-15:08:28.864 ec745 Delete type=0 #4996
+2021/05/24-15:08:28.864 ec745 Delete type=2 #4994
+2021/05/24-15:08:28.864 ec745 Delete type=2 #4997
+2021/05/24-15:08:50.512 ec745 Compacting 1@1 + 1@2 files
+2021/05/24-15:08:50.518 ec745 Generated table #5001@1: 235 keys, 25272 bytes
+2021/05/24-15:08:50.518 ec745 Compacted 1@1 + 1@2 files => 25272 bytes
+2021/05/24-15:08:50.518 ec745 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/24-15:11:27.709 ec745 Level-0 table #5003: started
+2021/05/24-15:11:27.718 ec745 Level-0 table #5003: 758183 bytes OK
+2021/05/24-15:11:27.720 ec745 Delete type=2 #4998
+2021/05/24-15:11:27.720 ec745 Delete type=2 #5000
+2021/05/24-15:11:27.720 ec745 Delete type=0 #4999
+2021/05/24-15:12:06.673 e44df Compacting 1@1 + 1@2 files
+2021/05/24-15:12:06.676 e44df Generated table #5004@1: 265 keys, 43184 bytes
+2021/05/24-15:12:06.676 e44df Compacted 1@1 + 1@2 files => 43184 bytes
+2021/05/24-15:12:06.677 e44df compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/24-15:12:06.677 e44df Delete type=2 #5003
+2021/05/24-15:12:06.677 e44df Delete type=2 #5001
+2021/05/24-15:28:08.348 fc2b6 Level-0 table #5006: started
+2021/05/24-15:28:08.357 fc2b6 Level-0 table #5006: 869475 bytes OK
+2021/05/24-15:28:08.359 fc2b6 Delete type=0 #5002
+2021/05/24-15:28:53.309 fc2b6 Compacting 1@1 + 1@2 files
+2021/05/24-15:28:53.311 fc2b6 Generated table #5007@1: 233 keys, 30678 bytes
+2021/05/24-15:28:53.311 fc2b6 Compacted 1@1 + 1@2 files => 30678 bytes
+2021/05/24-15:28:53.312 fc2b6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/24-15:28:53.312 fc2b6 Delete type=2 #5006
+2021/05/24-15:28:53.312 fc2b6 Delete type=2 #5004

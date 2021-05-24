@@ -83,10 +83,14 @@ features.declareSupported('remote_locus_network_control');
 features.declareSupported('connection_replay');
 features.declareSupported('simulcast');
 features.declareSupported('direct_video');
+features.declareSupported('electron_video');
+
+if (process.platform === 'win32' || process.platform === 'darwin') {
+  features.declareSupported('soundshare');
+}
 
 if (process.platform === 'win32') {
   features.declareSupported('voice_legacy_subsystem');
-  features.declareSupported('soundshare');
   features.declareSupported('wumpus_video');
   features.declareSupported('hybrid_video');
   features.declareSupported('elevated_hook');
@@ -243,11 +247,10 @@ const ensureCanvasContext = function (sinkId) {
   return context;
 };
 
-
 let activeSinksChangeCallback;
 VoiceEngine.setActiveSinksChangeCallback = function (callback) {
   activeSinksChangeCallback = callback;
-}
+};
 
 function notifyActiveSinksChange(streamId) {
   if (activeSinksChangeCallback == null) {
@@ -298,7 +301,6 @@ function addVideoOutputSinkInternal(sinkId, streamId, frameCallback) {
     setVideoOutputSink(streamId, onFrame, true);
     notifyActiveSinksChange(streamId);
   }
-
 }
 
 VoiceEngine.addVideoOutputSink = function (sinkId, streamId, frameCallback) {
@@ -339,18 +341,18 @@ VoiceEngine.removeVideoOutputSink = function (sinkId, streamId) {
 // video output sinks
 const addDirectVideoOutputSink_ = VoiceEngine.addDirectVideoOutputSink;
 const removeDirectVideoOutputSink_ = VoiceEngine.removeDirectVideoOutputSink;
-VoiceEngine.addDirectVideoOutputSink = function(streamId) {
+VoiceEngine.addDirectVideoOutputSink = function (streamId) {
   console.log(`Subscribing to direct frames for streamId ${streamId}`);
   addDirectVideoOutputSink_(streamId);
   directVideoStreams[streamId] = true;
   notifyActiveSinksChange(streamId);
-}
-VoiceEngine.removeDirectVideoOutputSink = function(streamId) {
+};
+VoiceEngine.removeDirectVideoOutputSink = function (streamId) {
   console.log(`Unsubscribing from direct frames for streamId ${streamId}`);
   removeDirectVideoOutputSink_(streamId);
   delete directVideoStreams[streamId];
   notifyActiveSinksChange(streamId);
-}
+};
 
 let sinkId = 0;
 VoiceEngine.getNextVideoOutputFrame = function (streamId) {

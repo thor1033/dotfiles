@@ -1,8 +1,8 @@
-2021/04/17-22:09:07.405 479c9 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/17-22:09:07.406 479c9 Recovering log #31
-2021/04/17-22:09:07.406 479c9 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000031.log 
-2021/04/17-22:09:16.997 48353 Level-0 table #35: started
-2021/04/17-22:09:16.997 48353 Level-0 table #35: 0 bytes OK
-2021/04/17-22:09:17.001 48353 Delete type=0 #31
-2021/04/17-22:09:17.002 48353 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/17-22:09:17.002 48353 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2021/05/05-21:23:55.005 6c228 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/05-21:23:55.005 6c228 Recovering log #48
+2021/05/05-21:23:55.005 6c228 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000048.log 
+2021/05/05-21:26:57.347 6e51c Level-0 table #52: started
+2021/05/05-21:26:57.347 6e51c Level-0 table #52: 0 bytes OK
+2021/05/05-21:26:57.351 6e51c Delete type=0 #48
+2021/05/05-21:26:57.352 6e51c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/05-21:26:57.352 6e51c Manual compaction at level-1 from (begin) .. (end); will stop at (end)

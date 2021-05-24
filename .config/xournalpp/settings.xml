@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value=""/>
+  <property name="lastSavePath" value="/mnt/Dokumenter/KU/LA/ugeseddel"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value=""/>
   <property name="zoomStep" value="10.00000000"/>
@@ -24,8 +24,8 @@
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
   <property name="viewFixedRows" value="false"/>
-  <property name="showPairedPages" value="true"/>
-  <property name="layoutVertical" value="false"/>
+  <property name="showPairedPages" value="false"/>
+  <property name="layoutVertical" value="true"/>
   <property name="layoutRightToLeft" value="true"/>
   <property name="layoutBottomToTop" value="true"/>
   <property name="numPairsOffset" value="1"/>
@@ -185,7 +185,7 @@
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
       <attribute name="size" type="string" value="MEDIUM"/>
-      <attribute name="style" type="string" value="dot"/>
+      <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">
       <attribute name="drawingType" type="string" value="default"/>

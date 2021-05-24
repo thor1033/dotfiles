@@ -1,15 +1,15 @@
-2021/04/25-08:41:51.393 1306 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/25-08:41:51.393 1306 Recovering log #87
-2021/04/25-08:41:51.397 1306 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000087.log 
-2021/04/25-11:14:35.429 6188b Level-0 table #92: started
-2021/04/25-11:14:35.440 6188b Level-0 table #92: 126041 bytes OK
-2021/04/25-11:14:35.442 6188b Delete type=0 #87
-2021/04/25-11:14:35.443 6188b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/25-11:14:35.443 6188b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x02\x00`J\x85\x83\x90wB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 82647 : 1
-2021/04/25-11:14:35.443 6188b Compacting 1@1 + 1@2 files
-2021/04/25-11:14:35.452 6188b Generated table #93@1: 700 keys, 71358 bytes
-2021/04/25-11:14:35.452 6188b Compacted 1@1 + 1@2 files => 71358 bytes
-2021/04/25-11:14:35.453 6188b compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/04/25-11:14:35.453 6188b Delete type=2 #92
-2021/04/25-11:14:35.453 6188b Delete type=2 #89
-2021/04/25-11:14:35.454 6188b Manual compaction at level-1 from '\x00\x03\x01\x1f\x02\x00`J\x85\x83\x90wB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 82647 : 1 .. (end); will stop at (end)
+2021/05/24-10:54:07.353 50245 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/24-10:54:07.353 50245 Recovering log #253
+2021/05/24-10:54:07.358 50245 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000253.log 
+2021/05/24-10:54:09.610 50296 Level-0 table #258: started
+2021/05/24-10:54:09.620 50296 Level-0 table #258: 109190 bytes OK
+2021/05/24-10:54:09.621 50296 Delete type=0 #253
+2021/05/24-10:54:09.621 50296 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/24-10:54:09.621 50296 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x02\x00p\xd60\xd9\x99wB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 295590 : 1
+2021/05/24-10:54:09.622 50296 Compacting 1@1 + 1@2 files
+2021/05/24-10:54:09.628 50296 Generated table #259@1: 815 keys, 86559 bytes
+2021/05/24-10:54:09.628 50296 Compacted 1@1 + 1@2 files => 86559 bytes
+2021/05/24-10:54:09.628 50296 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/24-10:54:09.628 50296 Delete type=2 #258
+2021/05/24-10:54:09.628 50296 Delete type=2 #255
+2021/05/24-10:54:09.629 50296 Manual compaction at level-1 from '\x00\x03\x01\x1f\x02\x00p\xd60\xd9\x99wB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 295590 : 1 .. (end); will stop at (end)

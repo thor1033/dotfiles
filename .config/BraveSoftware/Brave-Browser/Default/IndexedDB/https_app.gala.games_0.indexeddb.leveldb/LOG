@@ -1,6 +1,15 @@
-2021/04/23-13:46:25.849 6eaed Creating DB /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.gala.games_0.indexeddb.leveldb since it was missing.
-2021/04/23-13:46:25.856 6eaed Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.gala.games_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/23-13:47:02.663 6eaed Level-0 table #5: started
-2021/04/23-13:47:02.665 6eaed Level-0 table #5: 1145 bytes OK
-2021/04/23-13:47:02.667 6eaed Delete type=0 #3
-2021/04/23-13:47:02.668 6eaed Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/29-22:30:47.233 50c3c Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.gala.games_0.indexeddb.leveldb/MANIFEST-000001
+2021/04/29-22:30:47.233 50c3c Recovering log #4
+2021/04/29-22:30:47.233 50c3c Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.gala.games_0.indexeddb.leveldb/000004.log 
+2021/04/29-22:31:26.920 507a7 Level-0 table #8: started
+2021/04/29-22:31:26.920 507a7 Level-0 table #8: 512 bytes OK
+2021/04/29-22:31:26.921 507a7 Delete type=0 #4
+2021/04/29-22:31:26.921 507a7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/04/29-22:31:26.921 507a7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x003\x001\x003\x005\x000\x006\x009\x002\x003' @ 64 : 1
+2021/04/29-22:31:26.921 507a7 Compacting 1@1 + 1@2 files
+2021/04/29-22:31:26.921 507a7 Generated table #9@1: 18 keys, 541 bytes
+2021/04/29-22:31:26.921 507a7 Compacted 1@1 + 1@2 files => 541 bytes
+2021/04/29-22:31:26.922 507a7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/04/29-22:31:26.922 507a7 Delete type=2 #5
+2021/04/29-22:31:26.922 507a7 Delete type=2 #8
+2021/04/29-22:31:26.922 507a7 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x003\x001\x003\x005\x000\x006\x009\x002\x003' @ 64 : 1 .. (end); will stop at (end)
