@@ -1,5 +1,5 @@
 {
-   "checksum": "4cbf432a9cf45fb3e465d05ab47589fb",
+   "checksum": "3f8c5265cb7e5bc0b25c2ffc15a997a9",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -268,9 +268,16 @@
                "name": "VitalSource Bookshelf: Library",
                "type": "url",
                "url": "https://bookshelf.vitalsource.com/#/"
+            }, {
+               "date_added": "13266411156072200",
+               "guid": "d600e42e-2976-4437-8127-17481845e092",
+               "id": "93",
+               "name": "Digital Resources for Intermediate Microeconomics with Calculus",
+               "type": "url",
+               "url": "https://digital.wwnorton.com/calcmedia"
             } ],
             "date_added": "13260107812523635",
-            "date_modified": "13265192695898499",
+            "date_modified": "13266411156072200",
             "guid": "9a039681-2f85-4512-85db-62bc6951a144",
             "id": "29",
             "name": "Skole",

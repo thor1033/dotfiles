@@ -231,15 +231,15 @@ main = do
         startupHook        = myStartupHook,
         logHook            = workspaceHistoryHook <+> myLogHook <+> dynamicLogWithPP xmobarPP
 	        { ppOutput = \x -> hPutStrLn xmproc0 x >> hPutStrLn xmproc1 x
-		, ppCurrent = xmobarColor "#98971a" "" . wrap "{" "}"
-		, ppVisible = xmobarColor "#98971a" "" 
-		, ppHidden = xmobarColor "#458588" "" . wrap "*" "" 
-		, ppHiddenNoWindows = xmobarColor "#b16286" "" 
-		, ppTitle = xmobarColor "#98971a" "" . shorten 60
+		, ppCurrent = xmobarColor "#b4be82" "" . wrap "{" "}"
+		, ppVisible = xmobarColor "#b4be82" "" 
+		, ppHidden = xmobarColor "#89b8c2" "" . wrap "*" "" 
+		, ppHiddenNoWindows = xmobarColor "#ba093c7" "" 
+		, ppTitle = xmobarColor "#b4be82" "" . shorten 60
 		, ppSep = "<fc=#a89984> <fn=1>    </fn> </fc>"
 		, ppUrgent = xmobarColor "#cc241d" "". wrap "!" "!"
 		, ppExtras = [windowCount] 
-		, ppLayout = xmobarColor "#cc241d" ""
+		, ppLayout = xmobarColor "#e27878" ""
 		, ppOrder = \(ws:l:t:ex) -> [ws,l]++ex++[t]
 		}
     } `additionalKeysP` myKeys

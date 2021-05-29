@@ -9,7 +9,7 @@ export EDITOR="$VISUAL"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="cypher"
+ZSH_THEME="muse"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,7 +122,7 @@ else
         export PATH="/opt/miniconda3/bin:$PATH"
     fi
 fi
-#unset __conda_setup
+unset __conda_setup
 # <<< conda initialize <<<
 
 alias config='/usr/bin/git --git-dir=/home/thor/dotfiles --work-tree=/home/thor'

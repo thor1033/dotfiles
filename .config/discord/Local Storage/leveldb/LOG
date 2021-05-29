@@ -1,6 +1,6 @@
-2021/05/24-10:55:38.067 514de Reusing MANIFEST /home/thor/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2021/05/24-10:55:38.067 514de Recovering log #452
-2021/05/24-10:55:38.068 514de Reusing old log /home/thor/.config/discord/Local Storage/leveldb/000452.log 
-2021/05/24-12:47:07.647 96b33 Level-0 table #456: started
-2021/05/24-12:47:07.654 96b33 Level-0 table #456: 17245 bytes OK
-2021/05/24-12:47:07.655 96b33 Delete type=0 #452
+2021/05/29-17:50:53.749 952 Reusing MANIFEST /home/thor/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2021/05/29-17:50:53.750 952 Recovering log #473
+2021/05/29-17:50:53.750 952 Reusing old log /home/thor/.config/discord/Local Storage/leveldb/000473.log 
+2021/05/29-22:46:11.170 8829d Level-0 table #477: started
+2021/05/29-22:46:11.175 8829d Level-0 table #477: 17397 bytes OK
+2021/05/29-22:46:11.176 8829d Delete type=0 #473

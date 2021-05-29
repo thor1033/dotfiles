@@ -4,15 +4,14 @@
 
 Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true"
        , additionalFonts = ["xft:Symbola:pixelsize=14",
-       			    "xft:Symbola:pixelsize=14"]
-       , bgColor = "#282828"
-       , fgColor = "#ebdbb2"
+       			    "xft:161821a:pixelsize=14"]
+       , fgColor = "#84a0c6"
+       , bgColor = "#161821"
        , position = Static { xpos = 15 , ypos = 10, width = 1890, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False
        , allDesktops = True
        , persistent = True
-       , alpha = 185
        , textOffset = 15
        , iconRoot = "/home/dt/.xmonad/xpm/"  -- default: "."
        , commands = [
@@ -50,5 +49,5 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "<action=`xdotool key control+alt+g`><icon=haskell_20.xpm/> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#d79921><fn=1>🪙</fn> btc: %btcprice% $</fc><fc=#a89984>  </fc><fc=#cc241d><fn=1>🏫</fn> KUmail: %kumail%</fc> <fc=#a89984> </fc> <fc=#d3869b><fn=1>📫</fn> hotmail: %hotmail% </fc><fc=#a89984> </fc> <fc=#689d6a><fn=1>🔊</fn> %volume%</fc><fc=#a89984> </fc> <fc=#458588> %date%  </fc>"
+       , template = "<action=`xdotool key control+alt+g`><icon=haskell_20.xpm/> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#e2a478><fn=1>🪙</fn> btc: %btcprice% $</fc><fc=#a89984>  </fc><fc=#e27878><fn=1>🏫</fn> KUmail: %kumail%</fc> <fc=#a89984> </fc> <fc=#a093c7><fn=1>📫</fn> hotmail: %hotmail% </fc><fc=#a89984> </fc> <fc=#b4be82><fn=1>🔊</fn> %volume%</fc><fc=#a89984> </fc> <fc=#89b8c2> %date%  </fc>"
        }

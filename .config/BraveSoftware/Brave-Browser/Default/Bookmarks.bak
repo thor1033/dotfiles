@@ -1,5 +1,5 @@
 {
-   "checksum": "d62be73d700f30e73a15f5ebe5d4f85f",
+   "checksum": "4cbf432a9cf45fb3e465d05ab47589fb",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -261,9 +261,16 @@
                "id": "73",
                "name": "Math",
                "type": "folder"
+            }, {
+               "date_added": "13265192685585270",
+               "guid": "fc0283f8-1b24-45f3-9df8-dd6a953bf12c",
+               "id": "91",
+               "name": "VitalSource Bookshelf: Library",
+               "type": "url",
+               "url": "https://bookshelf.vitalsource.com/#/"
             } ],
             "date_added": "13260107812523635",
-            "date_modified": "13261483177234622",
+            "date_modified": "13265192695898499",
             "guid": "9a039681-2f85-4512-85db-62bc6951a144",
             "id": "29",
             "name": "Skole",
@@ -350,9 +357,16 @@
                "name": "Alle apps",
                "type": "url",
                "url": "https://play.google.com/console/u/0/developers/8889603192118376165/app-list"
+            }, {
+               "date_added": "13265192665721310",
+               "guid": "ca253511-ab66-4d8c-9b18-84eedd1a86e1",
+               "id": "90",
+               "name": "VitalSource Bookshelf: Sign In",
+               "type": "url",
+               "url": "https://bookshelf.vitalsource.com/#/user/signin"
             } ],
             "date_added": "13263896055412414",
-            "date_modified": "13263896055412973",
+            "date_modified": "13265192685585270",
             "guid": "b69fe145-ac5f-48dc-a42c-a447f6cfa625",
             "id": "88",
             "name": "AarsnormApp",

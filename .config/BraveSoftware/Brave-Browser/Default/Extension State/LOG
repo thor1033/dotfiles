@@ -1,3 +1,6 @@
-2021/05/24-10:54:07.461 50245 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2021/05/24-10:54:07.462 50245 Recovering log #97
-2021/05/24-10:54:07.463 50245 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Extension State/000097.log 
+2021/05/29-21:02:30.307 45a0d Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2021/05/29-21:02:30.307 45a0d Recovering log #101
+2021/05/29-21:02:30.311 45a0d Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Extension State/000101.log 
+2021/05/30-00:05:26.143 b7d98 Level-0 table #105: started
+2021/05/30-00:05:26.165 b7d98 Level-0 table #105: 1733712 bytes OK
+2021/05/30-00:05:26.169 b7d98 Delete type=0 #101
