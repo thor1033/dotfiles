@@ -1,15 +1,15 @@
-2021/05/30-23:41:32.519 30dfe Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/30-23:41:32.519 30dfe Recovering log #4
-2021/05/30-23:41:32.519 30dfe Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/000004.log 
-2021/05/30-23:42:22.433 335ca Level-0 table #8: started
-2021/05/30-23:42:22.439 335ca Level-0 table #8: 2244 bytes OK
-2021/05/30-23:42:22.440 335ca Delete type=0 #4
-2021/05/30-23:42:22.440 335ca Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/05/30-23:42:22.441 335ca Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00t\x00a\x00g\x00s' @ 146 : 1
-2021/05/30-23:42:22.441 335ca Compacting 1@1 + 1@2 files
-2021/05/30-23:42:22.442 335ca Generated table #9@1: 18 keys, 498 bytes
-2021/05/30-23:42:22.442 335ca Compacted 1@1 + 1@2 files => 498 bytes
-2021/05/30-23:42:22.442 335ca compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/05/30-23:42:22.443 335ca Delete type=2 #5
-2021/05/30-23:42:22.443 335ca Delete type=2 #8
-2021/05/30-23:42:22.443 335ca Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00t\x00a\x00g\x00s' @ 146 : 1 .. (end); will stop at (end)
+2021/05/31-22:13:53.370 984e7 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/31-22:13:53.370 984e7 Recovering log #14
+2021/05/31-22:13:53.370 984e7 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/000014.log 
+2021/05/31-22:14:26.626 95d1a Level-0 table #19: started
+2021/05/31-22:14:26.631 95d1a Level-0 table #19: 822 bytes OK
+2021/05/31-22:14:26.632 95d1a Delete type=0 #14
+2021/05/31-22:14:26.633 95d1a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/31-22:14:26.633 95d1a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01 \x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00N\x00e\x00o\x00v\x00i\x00m\x00/\x000\x003\x00-\x00v\x00i\x00m\x00-\x00t\x00h\x00e\x00m\x00e\x00s\x00/' @ 258 : 1
+2021/05/31-22:14:26.633 95d1a Compacting 1@1 + 1@2 files
+2021/05/31-22:14:26.634 95d1a Generated table #20@1: 30 keys, 1131 bytes
+2021/05/31-22:14:26.634 95d1a Compacted 1@1 + 1@2 files => 1131 bytes
+2021/05/31-22:14:26.635 95d1a compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/31-22:14:26.635 95d1a Delete type=2 #19
+2021/05/31-22:14:26.636 95d1a Delete type=2 #16
+2021/05/31-22:14:26.636 95d1a Manual compaction at level-1 from '\x00\x01\x01\x02\x01 \x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00:\x00/\x00N\x00e\x00o\x00v\x00i\x00m\x00/\x000\x003\x00-\x00v\x00i\x00m\x00-\x00t\x00h\x00e\x00m\x00e\x00s\x00/' @ 258 : 1 .. (end); will stop at (end)

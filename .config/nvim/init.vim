@@ -1,5 +1,6 @@
 source $HOME/.config/nvim/plug-config/coc.vim
 
+
 set number relativenumber
 set incsearch
 set scrolloff=8
@@ -7,6 +8,15 @@ set hlsearch!
 set nowrap
 set encoding=UTF-8
 set nocompatible
+set t_Co=256                            " Support 256 colors
+set splitbelow
+set splitright
+set expandtab
+set tabstop=2
+set cursorline
+set showtabline
+set nobackup
+set nowritebackup
 
 call plug#begin()
 Plug 'drewtempelmeyer/palenight.vim'
@@ -58,4 +68,15 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
+nnoremap <M-j> :resize -2<CR>
+nnoremap <M-k> :resize +2<CR>
+nnoremap <M-h> :vertical resize -2<CR>
+nnoremap <M-l> :vertical resize -2<CR>
+
+
+vnoremap < <gv
+vnoremap > >gv
+
+
 highlight clear signcolumn
+

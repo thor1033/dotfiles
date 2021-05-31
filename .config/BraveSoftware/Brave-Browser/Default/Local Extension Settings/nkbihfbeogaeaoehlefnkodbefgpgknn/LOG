@@ -1,24 +1,6 @@
-2021/05/31-18:14:05.307 ec5 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
-2021/05/31-18:14:05.308 ec5 Recovering log #1933
-2021/05/31-18:14:05.310 ec5 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/001933.log 
-2021/05/31-18:23:06.894 1f7e Level-0 table #1938: started
-2021/05/31-18:23:06.910 1f7e Level-0 table #1938: 783013 bytes OK
-2021/05/31-18:23:06.914 1f7e Delete type=0 #1933
-2021/05/31-18:32:08.268 76a9 Level-0 table #1940: started
-2021/05/31-18:32:08.300 76a9 Level-0 table #1940: 787253 bytes OK
-2021/05/31-18:32:08.305 76a9 Delete type=0 #1937
-2021/05/31-18:45:35.448 db4d Level-0 table #1942: started
-2021/05/31-18:45:35.459 db4d Level-0 table #1942: 788970 bytes OK
-2021/05/31-18:45:35.460 db4d Delete type=0 #1939
-2021/05/31-18:58:36.804 1ab5e Level-0 table #1944: started
-2021/05/31-18:58:36.816 1ab5e Level-0 table #1944: 794737 bytes OK
-2021/05/31-18:58:36.817 1ab5e Delete type=0 #1941
-2021/05/31-18:58:36.818 1ab5e Compacting 4@0 + 1@1 files
-2021/05/31-18:58:36.824 1ab5e Generated table #1945@0: 2 keys, 38158 bytes
-2021/05/31-18:58:36.824 1ab5e Compacted 4@0 + 1@1 files => 38158 bytes
-2021/05/31-18:58:36.824 1ab5e compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/05/31-18:58:36.824 1ab5e Delete type=2 #1942
-2021/05/31-18:58:36.824 1ab5e Delete type=2 #1940
-2021/05/31-18:58:36.824 1ab5e Delete type=2 #1938
-2021/05/31-18:58:36.824 1ab5e Delete type=2 #1944
-2021/05/31-18:58:36.824 1ab5e Delete type=2 #1935
+2021/05/31-23:04:45.398 357 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2021/05/31-23:04:45.398 357 Recovering log #1964
+2021/05/31-23:04:45.406 357 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/001964.log 
+2021/05/31-23:06:49.710 359 Level-0 table #1968: started
+2021/05/31-23:06:49.739 359 Level-0 table #1968: 783225 bytes OK
+2021/05/31-23:06:49.741 359 Delete type=0 #1964
