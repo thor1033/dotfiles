@@ -1,21 +1,6 @@
-2021/05/29-21:02:29.208 3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/05/29-21:02:29.208 3 Recovering log #1910
-2021/05/29-21:02:29.209 3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001910.log 
-2021/05/29-21:20:02.241 b Level-0 table #1914: started
-2021/05/29-21:20:02.246 b Level-0 table #1914: 16878 bytes OK
-2021/05/29-21:20:02.247 b Delete type=0 #1910
-2021/05/29-23:01:59.821 3f Level-0 table #1916: started
-2021/05/29-23:01:59.822 3f Level-0 table #1916: 15682 bytes OK
-2021/05/29-23:01:59.824 3f Delete type=0 #1913
-2021/05/29-23:01:59.824 3f Compacting 4@0 + 1@1 files
-2021/05/29-23:01:59.827 3f Generated table #1917@0: 86 keys, 13433 bytes
-2021/05/29-23:01:59.827 3f Compacted 4@0 + 1@1 files => 13433 bytes
-2021/05/29-23:01:59.827 3f compacted to: files[ 0 1 0 0 0 0 0 ]
-2021/05/29-23:01:59.828 3f Delete type=2 #1914
-2021/05/29-23:01:59.828 3f Delete type=2 #1911
-2021/05/29-23:01:59.828 3f Delete type=2 #1907
-2021/05/29-23:01:59.828 3f Delete type=2 #1916
-2021/05/29-23:01:59.828 3f Delete type=2 #1909
-2021/05/30-00:14:36.191 58 Level-0 table #1919: started
-2021/05/30-00:14:36.193 58 Level-0 table #1919: 13344 bytes OK
-2021/05/30-00:14:36.196 58 Delete type=0 #1915
+2021/05/31-18:14:03.806 5 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/05/31-18:14:03.807 5 Recovering log #1948
+2021/05/31-18:14:03.810 5 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001948.log 
+2021/05/31-18:51:08.633 1b Level-0 table #1953: started
+2021/05/31-18:51:08.640 1b Level-0 table #1953: 14354 bytes OK
+2021/05/31-18:51:08.641 1b Delete type=0 #1948

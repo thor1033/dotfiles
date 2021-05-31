@@ -41,7 +41,7 @@ import qualified Data.Map        as M
 
 
 myTerminal :: String
-myTerminal = "st"
+myTerminal = "alacritty"
 
 myBrowser :: String
 myBrowser = "brave"
@@ -116,11 +116,11 @@ myKeys =
 	[("M-<Return>", spawn (myTerminal))
 	,("M-w",        spawn (myBrowser))
 	,("M-d",	spawn ("rofi -show run -modi run"))
-	,("M-e",	spawn ("st -e neomutt"))
-	,("M-m",        spawn ("st -e ncmpcpp"))
-	,("M-r",	spawn ("st -e ranger"))
-	,("M-n",	spawn ("st -e nvim"))
-	,("M-c",	spawn ("st -e calcurse"))
+	,("M-e",	spawn ("alacritty -e neomutt"))
+	,("M-m",  spawn ("alacritty -e ncmpcpp"))
+	,("M-r",	spawn ("alacritty -e ranger"))
+	,("M-n",	spawn ("alacritty -e nvim"))
+	,("M-c",	spawn ("alacritty -e calcurse"))
 	,("M-æ",	spawn ("rofi -show emoji -modi emoji"))
 	,("M-p",	spawn ("xournalpp"))
 

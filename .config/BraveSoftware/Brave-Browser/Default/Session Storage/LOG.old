@@ -1,21 +1,15 @@
-2021/05/29-17:50:27.422 3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2021/05/29-17:50:27.424 3 Recovering log #1902
-2021/05/29-17:50:27.425 3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001902.log 
-2021/05/29-19:05:48.914 2c Level-0 table #1906: started
-2021/05/29-19:05:48.917 2c Level-0 table #1906: 15351 bytes OK
-2021/05/29-19:05:48.921 2c Delete type=0 #1902
-2021/05/29-19:05:48.922 2c Compacting 4@0 + 1@1 files
-2021/05/29-19:05:48.933 2c Generated table #1907@0: 63 keys, 18983 bytes
-2021/05/29-19:05:48.933 2c Compacted 4@0 + 1@1 files => 18983 bytes
-2021/05/29-19:05:48.935 2c compacted to: files[ 0 1 0 0 0 0 0 ]
-2021/05/29-19:05:48.937 2c Delete type=2 #1896
-2021/05/29-19:05:48.937 2c Delete type=2 #1903
-2021/05/29-19:05:48.938 2c Delete type=2 #1898
-2021/05/29-19:05:48.938 2c Delete type=2 #1906
-2021/05/29-19:05:48.938 2c Delete type=2 #1901
-2021/05/29-20:17:25.601 51 Level-0 table #1909: started
-2021/05/29-20:17:25.613 51 Level-0 table #1909: 175033 bytes OK
-2021/05/29-20:17:25.614 51 Delete type=0 #1905
-2021/05/29-20:18:34.999 51 Level-0 table #1911: started
-2021/05/29-20:18:35.009 51 Level-0 table #1911: 174479 bytes OK
-2021/05/29-20:18:35.010 51 Delete type=0 #1908
+2021/05/31-15:23:26.975 3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2021/05/31-15:23:26.976 3 Recovering log #1945
+2021/05/31-15:23:26.977 3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Session Storage/001945.log 
+2021/05/31-15:44:25.159 a Level-0 table #1949: started
+2021/05/31-15:44:25.169 a Level-0 table #1949: 172294 bytes OK
+2021/05/31-15:44:25.170 a Delete type=0 #1945
+2021/05/31-15:44:25.170 a Compacting 4@0 + 1@1 files
+2021/05/31-15:44:25.177 a Generated table #1950@0: 23 keys, 169983 bytes
+2021/05/31-15:44:25.177 a Compacted 4@0 + 1@1 files => 169983 bytes
+2021/05/31-15:44:25.177 a compacted to: files[ 0 1 0 0 0 0 0 ]
+2021/05/31-15:44:25.177 a Delete type=2 #1949
+2021/05/31-15:44:25.178 a Delete type=2 #1946
+2021/05/31-15:44:25.178 a Delete type=2 #1939
+2021/05/31-15:44:25.178 a Delete type=2 #1944
+2021/05/31-15:44:25.178 a Delete type=2 #1941
