@@ -18,9 +18,14 @@ set showtabline
 set nobackup
 set nowritebackup
 
+autocmd BufEnter *.tex set spell spelllang=da_dk
+
 call plug#begin()
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
@@ -50,12 +55,9 @@ endif
 if (has("termguicolors"))
   set termguicolors
 endif
-let g:palenight_color_overrides = {
-\    'black': { 'gui': '#000000', "cterm": "0", "cterm16": "0" },
-\}
 
 let g:vimtex_view_general_viewer = 'zathura'
-let g:airline_theme='palenight'
+let g:airline_theme='dracula'
 let g:airline_powerline_fonts = 2
 let g:Tex_FoldedSections = 'part|addpart,chapter|addchap,section|addsec,subsection,subsubsection,paragraph,subparagraph'
 
@@ -79,4 +81,10 @@ vnoremap > >gv
 
 
 highlight clear signcolumn
+hi Normal guibg=None ctermbg=None
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 

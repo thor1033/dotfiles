@@ -5,19 +5,19 @@
   <property name="minimumPressure" value="0.05000000"/>
   <property name="pressureMultiplier" value="1.00000000"/>
   <property name="zoomGesturesEnabled" value="true"/>
-  <property name="selectedToolbar" value="Portrait"/>
-  <property name="lastSavePath" value="/mnt/Dokumenter/KU/LA/ugeseddel"/>
+  <property name="selectedToolbar" value="Xournal++"/>
+  <property name="lastSavePath" value="/home/thor/Documents/KU/MikØk/Øvelsestimer/Ø3"/>
   <property name="lastOpenPath" value=""/>
-  <property name="lastImagePath" value=""/>
+  <property name="lastImagePath" value="/home/thor/Pictures/scrot"/>
   <property name="zoomStep" value="10.00000000"/>
   <property name="zoomStepScroll" value="2.00000000"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="932"/>
+  <property name="mainWndWidth" value="1884"/>
   <property name="mainWndHeight" value="1010"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
-  <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="150"/>
+  <property name="showSidebar" value="false"/>
+  <property name="sidebarWidth" value="50"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
   <property name="menubarVisible" value="true"/>
@@ -27,7 +27,7 @@
   <property name="showPairedPages" value="false"/>
   <property name="layoutVertical" value="true"/>
   <property name="layoutRightToLeft" value="true"/>
-  <property name="layoutBottomToTop" value="true"/>
+  <property name="layoutBottomToTop" value="false"/>
   <property name="numPairsOffset" value="1"/>
   <property name="presentationMode" value="false"/>
   <!--Which gui elements are hidden if you are in Fullscreen mode, separated by a colon (,)-->
@@ -143,6 +143,14 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="Wacom Intuos BT S Pad pad">
+      <attribute name="deviceClass" type="int" value="0"/>
+      <attribute name="deviceSource" type="int" value="8"/>
+    </data>
+    <data name="Wacom Intuos BT S Pen stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
   </data>
   <data name="tools">
     <attribute name="current" type="string" value="pen"/>
@@ -180,7 +188,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="3333cc"/>
+      <attribute name="color" type="hex" value="ff0000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>

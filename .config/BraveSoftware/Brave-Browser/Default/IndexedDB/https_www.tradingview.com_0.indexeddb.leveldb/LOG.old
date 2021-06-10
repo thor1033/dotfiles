@@ -1,8 +1,8 @@
-2021/05/31-23:06:31.300 18b1 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tradingview.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/31-23:06:31.300 18b1 Recovering log #3949
-2021/05/31-23:06:31.301 18b1 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tradingview.com_0.indexeddb.leveldb/003949.log 
-2021/05/31-23:06:39.365 359 Level-0 table #3953: started
-2021/05/31-23:06:39.365 359 Level-0 table #3953: 0 bytes OK
-2021/05/31-23:06:39.370 359 Delete type=0 #3949
-2021/05/31-23:06:39.370 359 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/05/31-23:06:39.370 359 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2021/06/10-10:56:27.506 1c183 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tradingview.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/10-10:56:27.506 1c183 Recovering log #4394
+2021/06/10-10:56:27.507 1c183 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tradingview.com_0.indexeddb.leveldb/004394.log 
+2021/06/10-10:56:31.023 1c183 Level-0 table #4398: started
+2021/06/10-10:56:31.023 1c183 Level-0 table #4398: 0 bytes OK
+2021/06/10-10:56:31.030 1c183 Delete type=0 #4394
+2021/06/10-10:56:31.030 1c183 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/10-10:56:31.030 1c183 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

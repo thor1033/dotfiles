@@ -100,10 +100,10 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
-alias dmfs="cd /mnt/Dokumenter/KU/DMFS && ranger"
-alias gss="cd /mnt/Dokumenter/KU/StatSand && ranger"
-alias lalg="cd /mnt/Dokumenter/KU/LA && ranger"
-alias mikøk="cd /mnt/Dokumenter/KU/MikØk && ranger"
+alias dmfs="cd ~/Documents/KU/DMFS && ranger"
+alias gss="cd ~/Documents/KU/StatSand && ranger"
+alias lalg="cd ~/Documents/KU/LA && ranger"
+alias mikøk="cd ~/Documents/KU/MikØk && ranger"
 alias vi="nvim"
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"

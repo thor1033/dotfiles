@@ -3,10 +3,10 @@
 -- you can find weather location codes here: http://weather.noaa.gov/index.html
 
 Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true"
-       , additionalFonts = ["xft:Symbola:pixelsize=14",
-       			    "xft:161821a:pixelsize=14"]
+       , additionalFonts = ["xft:fontawesome-regular:pixelsize=14"]
        , fgColor = "#84a0c6"
-       , bgColor = "#161821"
+       , bgColor = "#292d3e"
+       , borderColor = "#bd93f9"
        , position = Static { xpos = 15 , ypos = 10, width = 1890, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False
@@ -18,7 +18,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
        		      --Music
 		      --Run Progress "mpc" ["sed -n 2p"] 10
                       -- Time and date
-                      Run Date "<fn=1>📅</fn>  %b %d %Y - (%H:%M) " "date" 50
+                      Run Date "<fn=1>\xf073</fn>  %b %d %Y <fn=1>\xf017</fn> %H:%M " "date" 50
                       -- Network up and down
                     , Run Network "enp6s0" ["-t", "<fn=1>\xf0aa</fn>  <rx>kb  <fn=1>\xf0ab</fn>  <tx>kb"] 20
                       -- Cpu usage in percent
@@ -49,5 +49,5 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "<action=`xdotool key control+alt+g`><icon=haskell_20.xpm/> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#e2a478><fn=1>🪙</fn> btc: %btcprice% $</fc><fc=#a89984>  </fc><fc=#e27878><fn=1>🏫</fn> KUmail: %kumail%</fc> <fc=#a89984> </fc> <fc=#a093c7><fn=1>📫</fn> hotmail: %hotmail% </fc><fc=#a89984> </fc> <fc=#b4be82><fn=1>🔊</fn> %volume%</fc><fc=#a89984> </fc> <fc=#89b8c2> %date%  </fc>"
+       , template = "<action=`xdotool key control+alt+g`> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#e2a478><fn=1></fn> %btcprice%$</fc><fc=#a89984>  </fc><fc=#e27878><fn=1></fn>%kumail%</fc> <fc=#a093c7><fn=1></fn> %hotmail% </fc><fc=#b4be82> %volume%</fc><fc=#a89984> </fc> <fc=#89b8c2> %date%  </fc>"
        }

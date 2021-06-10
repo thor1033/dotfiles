@@ -1,3 +1,6 @@
-2021/05/31-23:04:43.582 300 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2021/05/31-23:04:43.583 300 Recovering log #37
-2021/05/31-23:04:43.585 300 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000037.log 
+2021/06/10-10:35:33.322 8baf Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2021/06/10-10:35:33.322 8baf Recovering log #37
+2021/06/10-10:35:33.325 8baf Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000037.log 
+2021/06/10-11:49:50.044 40b71 Level-0 table #43: started
+2021/06/10-11:49:50.051 40b71 Level-0 table #43: 70048 bytes OK
+2021/06/10-11:49:50.053 40b71 Delete type=0 #37

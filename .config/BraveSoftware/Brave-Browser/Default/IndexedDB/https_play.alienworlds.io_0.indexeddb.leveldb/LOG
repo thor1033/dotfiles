@@ -1,3 +1,15 @@
-2021/05/31-23:04:44.555 355 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/31-23:04:44.555 355 Recovering log #309
-2021/05/31-23:04:44.558 355 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000309.log 
+2021/06/10-08:52:33.160 a68 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/10-08:52:33.160 a68 Recovering log #349
+2021/06/10-08:52:33.161 a68 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000349.log 
+2021/06/10-08:52:51.390 a68 Level-0 table #354: started
+2021/06/10-08:52:51.397 a68 Level-0 table #354: 21367 bytes OK
+2021/06/10-08:52:51.398 a68 Delete type=0 #349
+2021/06/10-08:52:51.398 a68 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/10-08:52:51.399 a68 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01$\x03\x00 \xda\x1dK\x9fwB\x00\x01V\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00l\x00i\x00e\x00n\x00w\x00o\x00r\x00l\x00d\x00s\x00.\x00m\x00y\x00p\x00i\x00n\x00a\x00t\x00a\x00.\x00c\x00l\x00o\x00u\x00d\x00/\x00i\x00p\x00f\x00s\x00/\x00Q\x00m\x00V\x00R\x00d\x00u\x00T\x009\x00R\x00o\x00A\x00h\x004\x00k\x00q\x003\x00s\x00r\x00Y\x005\x002\x00u\x00E\x00W\x00e\x007\x00M\x00g\x00E\x00n\x00U\x00o\x00t\x00e\x00M\x002\x00m\x00M\x00V\x004\x00f\x00V\x00J\x00W\x00r\x00q' @ 373730 : 1
+2021/06/10-08:52:51.399 a68 Compacting 1@1 + 1@2 files
+2021/06/10-08:52:51.404 a68 Generated table #355@1: 697 keys, 74890 bytes
+2021/06/10-08:52:51.404 a68 Compacted 1@1 + 1@2 files => 74890 bytes
+2021/06/10-08:52:51.405 a68 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/06/10-08:52:51.405 a68 Delete type=2 #351
+2021/06/10-08:52:51.405 a68 Delete type=2 #354
+2021/06/10-08:52:51.406 a68 Manual compaction at level-1 from '\x00\x01\x01$\x03\x00 \xda\x1dK\x9fwB\x00\x01V\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00a\x00l\x00i\x00e\x00n\x00w\x00o\x00r\x00l\x00d\x00s\x00.\x00m\x00y\x00p\x00i\x00n\x00a\x00t\x00a\x00.\x00c\x00l\x00o\x00u\x00d\x00/\x00i\x00p\x00f\x00s\x00/\x00Q\x00m\x00V\x00R\x00d\x00u\x00T\x009\x00R\x00o\x00A\x00h\x004\x00k\x00q\x003\x00s\x00r\x00Y\x005\x002\x00u\x00E\x00W\x00e\x007\x00M\x00g\x00E\x00n\x00U\x00o\x00t\x00e\x00M\x002\x00m\x00M\x00V\x004\x00f\x00V\x00J\x00W\x00r\x00q' @ 373730 : 1 .. (end); will stop at (end)

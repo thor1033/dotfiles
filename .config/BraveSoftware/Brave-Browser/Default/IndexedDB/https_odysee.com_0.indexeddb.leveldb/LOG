@@ -1,15 +1,15 @@
-2021/05/31-21:17:11.134 71985 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/31-21:17:11.134 71985 Recovering log #350
-2021/05/31-21:17:11.134 71985 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/000350.log 
-2021/05/31-21:17:17.890 732cb Level-0 table #355: started
-2021/05/31-21:17:17.891 732cb Level-0 table #355: 37665 bytes OK
-2021/05/31-21:17:17.892 732cb Delete type=0 #350
-2021/05/31-21:17:17.892 732cb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/05/31-21:17:17.892 732cb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 28284 : 1
-2021/05/31-21:17:17.892 732cb Compacting 1@1 + 1@2 files
-2021/05/31-21:17:17.893 732cb Generated table #356@1: 29 keys, 19455 bytes
-2021/05/31-21:17:17.893 732cb Compacted 1@1 + 1@2 files => 19455 bytes
-2021/05/31-21:17:17.894 732cb compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/05/31-21:17:17.894 732cb Delete type=2 #355
-2021/05/31-21:17:17.894 732cb Delete type=2 #352
-2021/05/31-21:17:17.894 732cb Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 28284 : 1 .. (end); will stop at (end)
+2021/06/09-21:11:11.396 47cac Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/09-21:11:11.396 47cac Recovering log #417
+2021/06/09-21:11:11.396 47cac Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_odysee.com_0.indexeddb.leveldb/000417.log 
+2021/06/09-21:14:17.543 4d52d Level-0 table #422: started
+2021/06/09-21:14:17.558 4d52d Level-0 table #422: 2231334 bytes OK
+2021/06/09-21:14:17.559 4d52d Delete type=0 #417
+2021/06/09-21:14:17.560 4d52d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/09-21:14:17.560 4d52d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 33352 : 1
+2021/06/09-21:14:17.560 4d52d Compacting 1@1 + 1@2 files
+2021/06/09-21:14:17.562 4d52d Generated table #423@1: 29 keys, 22446 bytes
+2021/06/09-21:14:17.562 4d52d Compacted 1@1 + 1@2 files => 22446 bytes
+2021/06/09-21:14:17.562 4d52d compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/06/09-21:14:17.562 4d52d Delete type=2 #422
+2021/06/09-21:14:17.562 4d52d Delete type=2 #419
+2021/06/09-21:14:17.563 4d52d Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 33352 : 1 .. (end); will stop at (end)

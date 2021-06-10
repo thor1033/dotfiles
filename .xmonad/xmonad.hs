@@ -15,6 +15,7 @@ import XMonad.Util.Run
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.DynamicLog (dynamicLogWithPP, wrap, xmobarPP, xmobarColor, shorten, PP(..))
 import XMonad.Hooks.WorkspaceHistory
+import XMonad.Hooks.EwmhDesktops
 
 import XMonad.Layout.Gaps
 import XMonad.Layout.Spiral
@@ -27,6 +28,7 @@ import XMonad.Layout.ResizableTile
 import XMonad.Layout.Renamed
 import XMonad.Layout.WindowNavigation
 import XMonad.Layout.LimitWindows (limitWindows, increaseLimit, decreaseLimit)
+import XMonad.Layout.Fullscreen
 
 import XMonad.Actions.CopyWindow (kill1)
 import XMonad.Actions.Promote
@@ -82,16 +84,16 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 -- Border colors for unfocused and focused windows, respectively.
 --
 myNormalBorderColor  = "#282828"
-myFocusedBorderColor = "#cc241d"
+myFocusedBorderColor = "#bd93f9"
 
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
 mySpacing i = spacingRaw False (Border i i i i) True (Border i i i i) True
 
 normal = renamed [Replace "normal"]
-        $ windowNavigation
-        $ limitWindows 12
-        $ mySpacing 8
-        $ ResizableTall 1 (3/100) (1/2) []
+  $ windowNavigation
+  $ limitWindows 12
+  $ mySpacing 8
+  $ ResizableTall 1 (3/100) (1/2) []
 
 spirals = renamed [Replace "spirals"]
 	$ windowNavigation
@@ -104,7 +106,7 @@ threeCol = renamed [Replace "threeCol"]
 	$ ThreeCol 1 (3/100) (1/2)
 
 grid = renamed [Replace "grid"]
-        $ mySpacing 8
+  $ mySpacing 8
 	$ Grid (16/10)
 
 ------------------------------------------------------------------------
@@ -123,6 +125,7 @@ myKeys =
 	,("M-c",	spawn ("alacritty -e calcurse"))
 	,("M-æ",	spawn ("rofi -show emoji -modi emoji"))
 	,("M-p",	spawn ("xournalpp"))
+	,("M-<Print>",	spawn ("scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' "))
 
 	--Navigation
 	,("M-j", windows W.focusDown)
@@ -146,6 +149,7 @@ myKeys =
 	--Xmonad
 	--,("M-C-ø", io exitSucces)
 	,("M-ø", spawn "xmonad --restart")
+	, ("M-f", sendMessage ToggleStruts <+> setWindowSpacing (Border 0 0 0 0))
 	--,("M-S-r" spawn "xmonad --recompile")
 	
 	--Music
@@ -159,20 +163,24 @@ myKeys =
 	,("M-S-<Page_Up>", spawn ("pamixer --allow-boost -i 15"))
 	,("M-<Page_Down>", spawn ("pamixer --allow-boost -d 5"))
 	,("M-S-<Page_Down>", spawn ("pamixer --allow-boost -d 15"))
+	,("M-S-m", spawn ("pamixer -t"))
 
 	--Layout	
 	,("M-<Tab>", sendMessage NextLayout)
+
+	--Pen and Pad	
+	,("M-<F11>", spawn ("xsetwacom set 'Wacom Intuos BT S Pen stylus' MapToOutput DisplayPort-0"))
+	,("M-<F12>", spawn ("xsetwacom set 'Wacom Intuos BT S Pen stylus' MapToOutput HDMI-A-0"))
+
 	]
 
 
 
 myManageHook = composeAll
-    [ className =? "MPlayer"        --> doFloat
-    , className =? "Gimp"           --> doFloat
-    , resource  =? "desktop_window" --> doIgnore
-    , resource  =? "kdesktop"       --> doIgnore ]
+    [ XMonad.Layout.Fullscreen.fullscreenManageHook]
 
-myEventHook = mempty
+myEventHook = handleEventHook def <+> XMonad.Hooks.EwmhDesktops.fullscreenEventHook <+> XMonad.Layout.Fullscreen.fullscreenEventHook
+
 
 ------------------------------------------------------------------------
 -- Status bars and logging
@@ -197,11 +205,11 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 
 myStartupHook = do 
-         spawnOnce "nitrogen --restore &"
-         spawnOnce "picom &"
-	 spawnOnce "mpd &"
-         spawnOnce "setxkbmap dk &"
-	 spawnOnce "unclutter &"
+				spawnOnce "nitrogen --restore &"
+				spawnOnce "picom &"
+				spawnOnce "mpd &"
+				spawnOnce "setxkbmap dk &"
+				spawnOnce "unclutter &"
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
 --
@@ -213,7 +221,7 @@ main = do
   xmproc0 <- spawnPipe "xmobar -x 0 $HOME/.config/xmobar/xmobarrc0"
   xmproc1 <- spawnPipe "xmobar -x 1 $HOME/.config/xmobar/xmobarrc1"
 
-  xmonad $ docks def {
+  xmonad $ fullscreenSupport $ docks def {
       -- simple stuff
         terminal           = myTerminal,
         focusFollowsMouse  = myFocusFollowsMouse,

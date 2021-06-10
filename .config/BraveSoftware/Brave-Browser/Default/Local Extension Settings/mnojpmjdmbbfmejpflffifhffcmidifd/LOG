@@ -1,14 +1,3 @@
-2021/05/31-23:04:44.267 359 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
-2021/05/31-23:04:44.267 359 Recovering log #188
-2021/05/31-23:04:44.284 359 Level-0 table #190: started
-2021/05/31-23:04:44.314 359 Level-0 table #190: 2231986 bytes OK
-2021/05/31-23:04:44.319 359 Delete type=0 #188
-2021/05/31-23:04:44.320 358 Compacting 4@0 + 1@1 files
-2021/05/31-23:04:44.384 358 Generated table #192@0: 4 keys, 578287 bytes
-2021/05/31-23:04:44.384 358 Compacted 4@0 + 1@1 files => 578287 bytes
-2021/05/31-23:04:44.385 358 compacted to: files[ 0 1 0 0 0 0 0 ]
-2021/05/31-23:04:44.386 358 Delete type=2 #181
-2021/05/31-23:04:44.386 358 Delete type=2 #187
-2021/05/31-23:04:44.386 358 Delete type=2 #179
-2021/05/31-23:04:44.386 358 Delete type=2 #184
-2021/05/31-23:04:44.386 358 Delete type=2 #190
+2021/06/10-10:35:33.903 8b83 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/MANIFEST-000001
+2021/06/10-10:35:33.903 8b83 Recovering log #227
+2021/06/10-10:35:33.905 8b83 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/mnojpmjdmbbfmejpflffifhffcmidifd/000227.log 

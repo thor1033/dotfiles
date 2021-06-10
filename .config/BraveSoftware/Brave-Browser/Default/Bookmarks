@@ -1,5 +1,5 @@
 {
-   "checksum": "3f8c5265cb7e5bc0b25c2ffc15a997a9",
+   "checksum": "4525ac95e8c8a8a6c918d26758a1ed44",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -210,9 +210,16 @@
                "name": "GitHub",
                "type": "url",
                "url": "https://github.com/"
+            }, {
+               "date_added": "13267273307805569",
+               "guid": "d77df7e5-e685-4ac5-8d8d-87d2e15ebe6e",
+               "id": "95",
+               "name": "Font Awesome Cheatsheet",
+               "type": "url",
+               "url": "https://fontawesome.com/v4.7/cheatsheet/"
             } ],
             "date_added": "13260011414370451",
-            "date_modified": "13263896036667236",
+            "date_modified": "13267307608520698",
             "guid": "4b4ccc19-daf6-47d8-b07d-09d9f16a6a92",
             "id": "26",
             "name": "Linux",
@@ -277,7 +284,7 @@
                "url": "https://digital.wwnorton.com/calcmedia"
             } ],
             "date_added": "13260107812523635",
-            "date_modified": "13266411156072200",
+            "date_modified": "13267273307805569",
             "guid": "9a039681-2f85-4512-85db-62bc6951a144",
             "id": "29",
             "name": "Skole",
@@ -364,13 +371,6 @@
                "name": "Alle apps",
                "type": "url",
                "url": "https://play.google.com/console/u/0/developers/8889603192118376165/app-list"
-            }, {
-               "date_added": "13265192665721310",
-               "guid": "ca253511-ab66-4d8c-9b18-84eedd1a86e1",
-               "id": "90",
-               "name": "VitalSource Bookshelf: Sign In",
-               "type": "url",
-               "url": "https://bookshelf.vitalsource.com/#/user/signin"
             } ],
             "date_added": "13263896055412414",
             "date_modified": "13265192685585270",

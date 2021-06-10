@@ -6,7 +6,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
        , additionalFonts = ["xft:Symbola:pixelsize=14",
        			    "xft:161821a:pixelsize=14"]
        , fgColor = "#84a0c6"
-       , bgColor = "#161821"
+       , bgColor = "#292d3e"
        , position = Static { xpos = 1935 , ypos = 10, width = 1890, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False

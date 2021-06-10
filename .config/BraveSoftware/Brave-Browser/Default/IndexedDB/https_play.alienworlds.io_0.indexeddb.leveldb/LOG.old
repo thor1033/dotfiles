@@ -1,3 +1,15 @@
-2021/05/31-22:02:24.456 85507 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/05/31-22:02:24.456 85507 Recovering log #309
-2021/05/31-22:02:24.456 85507 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000309.log 
+2021/06/10-08:48:27.886 9119 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/MANIFEST-000001
+2021/06/10-08:48:27.886 9119 Recovering log #345
+2021/06/10-08:48:27.886 9119 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.alienworlds.io_0.indexeddb.leveldb/000345.log 
+2021/06/10-08:52:32.891 ba13 Level-0 table #350: started
+2021/06/10-08:52:32.892 ba13 Level-0 table #350: 34663 bytes OK
+2021/06/10-08:52:32.892 ba13 Delete type=0 #345
+2021/06/10-08:52:32.893 ba13 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/06/10-08:52:32.893 ba13 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x1f\x02\x00 a\xebJ\x9fwB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 372903 : 1
+2021/06/10-08:52:32.893 ba13 Compacting 1@1 + 1@2 files
+2021/06/10-08:52:32.895 ba13 Generated table #351@1: 673 keys, 72545 bytes
+2021/06/10-08:52:32.895 ba13 Compacted 1@1 + 1@2 files => 72545 bytes
+2021/06/10-08:52:32.895 ba13 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/06/10-08:52:32.895 ba13 Delete type=2 #350
+2021/06/10-08:52:32.895 ba13 Delete type=2 #347
+2021/06/10-08:52:32.895 ba13 Manual compaction at level-1 from '\x00\x03\x01\x1f\x02\x00 a\xebJ\x9fwB\x00\x013\x00/\x00i\x00d\x00b\x00f\x00s\x00/\x00c\x002\x001\x004\x00d\x00d\x006\x000\x009\x006\x00b\x003\x00b\x007\x00f\x001\x009\x002\x001\x00e\x006\x002\x007\x001\x00a\x009\x000\x001\x00d\x00c\x002\x00f\x00/\x00P\x00l\x00a\x00y\x00e\x00r\x00P\x00r\x00e\x00f\x00s' @ 372903 : 1 .. (end); will stop at (end)
