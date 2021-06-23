@@ -92,7 +92,7 @@ mySpacing i = spacingRaw False (Border i i i i) True (Border i i i i) True
 normal = renamed [Replace "normal"]
   $ windowNavigation
   $ limitWindows 12
-  $ mySpacing 8
+  $ mySpacing 1
   $ ResizableTall 1 (3/100) (1/2) []
 
 spirals = renamed [Replace "spirals"]
@@ -103,7 +103,7 @@ spirals = renamed [Replace "spirals"]
 threeCol = renamed [Replace "threeCol"]
 	$ mySpacing 8
 	$ limitWindows 7
-	$ ThreeCol 1 (3/100) (1/2)
+	$ ThreeCol 0 (3/100) (1/2)
 
 grid = renamed [Replace "grid"]
   $ mySpacing 8
@@ -117,15 +117,17 @@ myKeys =
 	--Launch Programs
 	[("M-<Return>", spawn (myTerminal))
 	,("M-w",        spawn (myBrowser))
-	,("M-d",	spawn ("rofi -show run -modi run"))
+	,("M-d",	spawn ("rofi -no-lazy-grab -show drun -modi drun -theme /home/thor/.config/rofi/launchers/ribbon/ribbon_right.rasi"))
 	,("M-e",	spawn ("alacritty -e neomutt"))
 	,("M-m",  spawn ("alacritty -e ncmpcpp"))
 	,("M-r",	spawn ("alacritty -e ranger"))
 	,("M-n",	spawn ("alacritty -e nvim"))
 	,("M-c",	spawn ("alacritty -e calcurse"))
-	,("M-æ",	spawn ("rofi -show emoji -modi emoji"))
+	,("M-æ",	spawn ("rofi -no-lazy-grab -show emoji -modi emoji -theme ~/.config/rofi/launchers/text/style_3.rasi"))
 	,("M-p",	spawn ("xournalpp"))
 	,("M-<Print>",	spawn ("scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' "))
+	,("M-<KP_Enter>",	spawn ("rofi -no-lazy-grab -show calc -modi calc -theme ~/.config/rofi/launchers/text/style_1.rasi"))
+  ,("M-<Esc>", spawn ("/usr/local/bin/./powermenu.sh"))
 
 	--Navigation
 	,("M-j", windows W.focusDown)
@@ -149,7 +151,7 @@ myKeys =
 	--Xmonad
 	--,("M-C-ø", io exitSucces)
 	,("M-ø", spawn "xmonad --restart")
-	, ("M-f", sendMessage ToggleStruts <+> setWindowSpacing (Border 0 0 0 0))
+	,("M-f", sendMessage ToggleStruts <+> setWindowSpacing (Border 0 0 0 0))
 	--,("M-S-r" spawn "xmonad --recompile")
 	
 	--Music
@@ -171,6 +173,18 @@ myKeys =
 	--Pen and Pad	
 	,("M-<F11>", spawn ("xsetwacom set 'Wacom Intuos BT S Pen stylus' MapToOutput DisplayPort-0"))
 	,("M-<F12>", spawn ("xsetwacom set 'Wacom Intuos BT S Pen stylus' MapToOutput HDMI-A-0"))
+
+	--Labtop
+	--Volume
+	--,("<XF86AudioRaiseVolume>", spawn ("pamixer --allow-boost -i 5"))
+	--,("S-<XF86AudioRaiseVolume>", spawn ("pamixer --allow-boost -i 15"))
+	--,("<XF86AudioLowerVolume>", spawn ("pamixer --allow-boost -d 5"))
+	--,("S-<XF86AudioLowerVolume>", spawn ("pamixer --allow-boost -d 15"))
+	--,("<XF86AudioMute>", spawn ("pamixer -t"))
+	--
+	----Brightness
+	--,("<XF86MonBrightnessUp>", spawn ("light -A 10"))
+	--,("<XF86MonBrightnessDown>", spawn ("light -U 10"))
 
 	]
 
@@ -210,6 +224,7 @@ myStartupHook = do
 				spawnOnce "mpd &"
 				spawnOnce "setxkbmap dk &"
 				spawnOnce "unclutter &"
+				spawnOnce "xmodmap ~/.Xmodmap &"
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
 --
@@ -251,3 +266,40 @@ main = do
 		, ppOrder = \(ws:l:t:ex) -> [ws,l]++ex++[t]
 		}
     } `additionalKeysP` myKeys
+--Labtop
+--
+--main :: IO()
+--main = do
+--
+--  xmproc1 <- spawnPipe "xmobar -x 1 $HOME/.config/xmobar/xmobarrclab"
+--
+--  xmonad $ fullscreenSupport $ docks def {
+--      -- simple stuff
+--        terminal           = myTerminal,
+--        focusFollowsMouse  = myFocusFollowsMouse,
+--        clickJustFocuses   = myClickJustFocuses,
+--        borderWidth        = myBorderWidth,
+--        modMask            = myModMask,
+--        workspaces         = myWorkspaces,
+--        normalBorderColor  = myNormalBorderColor,
+--        focusedBorderColor = myFocusedBorderColor,
+--
+--      -- hooks, layouts
+--        layoutHook         = myLayoutHook,
+--        manageHook         = myManageHook,
+--        handleEventHook    = myEventHook,
+--        startupHook        = myStartupHook,
+--        logHook            = workspaceHistoryHook <+> myLogHook <+> dynamicLogWithPP xmobarPP
+--	        { ppOutput = \x -> hPutStrLn xmproc1 x
+--		, ppCurrent = xmobarColor "#b4be82" "" . wrap "{" "}"
+--		, ppVisible = xmobarColor "#b4be82" "" 
+--		, ppHidden = xmobarColor "#89b8c2" "" . wrap "*" "" 
+--		, ppHiddenNoWindows = xmobarColor "#ba093c7" "" 
+--		, ppTitle = xmobarColor "#b4be82" "" . shorten 60
+--		, ppSep = "<fc=#a89984> <fn=1>    </fn> </fc>"
+--		, ppUrgent = xmobarColor "#cc241d" "". wrap "!" "!"
+--		, ppExtras = [windowCount] 
+--		, ppLayout = xmobarColor "#e27878" ""
+--		, ppOrder = \(ws:l:t:ex) -> [ws,l]++ex++[t]
+--		}
+--    } `additionalKeysP` myKeys
