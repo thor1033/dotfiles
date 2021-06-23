@@ -1,25 +1,25 @@
+
 -- http://projects.haskell.org/xmobar/
 -- install xmobar with these flags: --flags="with_alsa" --flags="with_mpd" --flags="with_xft"  OR --flags="all_extensions"
 -- you can find weather location codes here: http://weather.noaa.gov/index.html
 
 Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true"
-       , additionalFonts = ["xft:Symbola:pixelsize=14",
-       			    "xft:Symbola:pixelsize=14"]
-       , bgColor = "#282828"
-       , fgColor = "#ebdbb2"
+       , additionalFonts = ["xft:fontawesome-regular:pixelsize=14"]
+       , fgColor = "#84a0c6"
+       , bgColor = "#292d3e"
+       , borderColor = "#bd93f9"
        , position = Static { xpos = 15 , ypos = 10, width = 1890, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False
        , allDesktops = True
        , persistent = True
-       , alpha = 185
-       , textOffset = 15
+       , textOffset = 16
        , iconRoot = "/home/dt/.xmonad/xpm/"  -- default: "."
        , commands = [
        		      --Music
 		      --Run Progress "mpc" ["sed -n 2p"] 10
                       -- Time and date
-                      Run Date "<fn=1>📅</fn>  %b %d %Y - (%H:%M) " "date" 50
+                      Run Date "<fn=1>\xf073</fn>  %b %d %Y <fn=1>\xf017</fn> %H:%M " "date" 50
                       -- Network up and down
                     , Run Network "enp6s0" ["-t", "<fn=1>\xf0aa</fn>  <rx>kb  <fn=1>\xf0ab</fn>  <tx>kb"] 20
                       -- Cpu usage in percent
@@ -47,8 +47,19 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
                              , "--normal"   , "darkorange"
                              , "--high"     , "darkred"
                              ] 50
-                    ]
+        , Run Battery        [ "--template" , "<fn=1></fn> <acstatus>"
+                             , "--Low"      , "10"      -- units: %
+                             , "--High"     , "80"      -- units: %
+                             , "--low"      , "#ff5555"
+                             , "--normal"   , "#f1fa8c"
+                             , "--high"     , "#50fa7b"
+
+                             , "--" --battery specifit options
+                                    , "-o" , "<left>% (<timeleft>)"
+                                    , "-O" , "<fc=#f1fa8c"><fn=1></fn></fc>"
+                                    , "-i" , "<fc=#50fa7b"><fn=1></fn></fc>"]
+                    ] 50
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "<action=`xdotool key control+alt+g`><icon=haskell_20.xpm/> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#d79921><fn=1>🪙</fn> btc: %btcprice% $</fc><fc=#a89984>  </fc><fc=#cc241d><fn=1>🏫</fn> KUmail: %kumail%</fc> <fc=#a89984> </fc> <fc=#d3869b><fn=1>📫</fn> hotmail: %hotmail% </fc><fc=#a89984> </fc> <fc=#689d6a><fn=1>🔊</fn> %volume%</fc><fc=#a89984> </fc> <fc=#458588> %date%  </fc>"
+       , template = "  %UnsafeStdinReader% }{<fc=#e2a478><fn=1></fn> %btcprice%$  </fc><fc=#e27878><fn=1></fn>%kumail%  </fc> <fc=#a093c7><fn=1></fn> %hotmail% </fc><fc=#b4be82> %volume%</fc> <fc=#89b8c2> %date%  </fc><fc=#a89984> %battery% </fc>"
        }

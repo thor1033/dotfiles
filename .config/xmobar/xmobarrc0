@@ -12,7 +12,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
        , hideOnStart = False
        , allDesktops = True
        , persistent = True
-       , textOffset = 15
+       , textOffset = 16
        , iconRoot = "/home/dt/.xmonad/xpm/"  -- default: "."
        , commands = [
        		      --Music
@@ -49,5 +49,5 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "<action=`xdotool key control+alt+g`> </action> %UnsafeStdinReader% }{<fc=#a89984>  </fc> <fc=#e2a478><fn=1></fn> %btcprice%$</fc><fc=#a89984>  </fc><fc=#e27878><fn=1></fn>%kumail%</fc> <fc=#a093c7><fn=1></fn> %hotmail% </fc><fc=#b4be82> %volume%</fc><fc=#a89984> </fc> <fc=#89b8c2> %date%  </fc>"
+       , template = "  %UnsafeStdinReader% }{<fc=#e2a478><fn=1></fn> %btcprice%$  </fc><fc=#e27878><fn=1></fn>%kumail%  </fc> <fc=#a093c7><fn=1></fn> %hotmail% </fc><fc=#b4be82> %volume%</fc> <fc=#89b8c2> %date%  </fc>"
        }
