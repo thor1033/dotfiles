@@ -107,6 +107,7 @@ alias mikøk="cd ~/Documents/KU/MikØk && ranger"
 alias vi="nvim"
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
+alias ls="lsd"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /home/thor/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
