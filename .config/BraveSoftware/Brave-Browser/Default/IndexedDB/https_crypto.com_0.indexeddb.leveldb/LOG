@@ -1,5 +1,0 @@
-2021/04/04-21:24:31.668 24b0 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_crypto.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/04-21:24:43.061 24af Level-0 table #5: started
-2021/04/04-21:24:43.065 24af Level-0 table #5: 2962 bytes OK
-2021/04/04-21:24:43.066 24af Delete type=0 #3
-2021/04/04-21:24:43.066 24af Manual compaction at level-0 from (begin) .. (end); will stop at (end)

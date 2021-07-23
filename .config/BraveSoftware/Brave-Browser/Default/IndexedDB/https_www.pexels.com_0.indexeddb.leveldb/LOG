@@ -1,5 +1,0 @@
-2021/04/20-13:49:19.814 108673 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pexels.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/20-13:49:25.091 10c726 Level-0 table #5: started
-2021/04/20-13:49:25.092 10c726 Level-0 table #5: 2969 bytes OK
-2021/04/20-13:49:25.093 10c726 Delete type=0 #3
-2021/04/20-13:49:25.094 10c726 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

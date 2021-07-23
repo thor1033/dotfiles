@@ -1,11 +1,12 @@
 {
-  "BACKGROUND_COLOR": "hsl(216, calc(var(--saturation-factor, 1) * 7.2%), 13.5%)",
+  "BACKGROUND_COLOR": "#202225",
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 18,
-    "y": 52,
-    "width": 1884,
-    "height": 1010
-  }
+    "x": 1939,
+    "y": 53,
+    "width": 1882,
+    "height": 1008
+  },
+  "MINIMIZE_TO_TRAY": false
 }

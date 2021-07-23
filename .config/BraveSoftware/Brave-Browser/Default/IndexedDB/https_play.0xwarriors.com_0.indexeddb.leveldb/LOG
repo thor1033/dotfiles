@@ -1,6 +1,0 @@
-2021/04/23-12:06:09.277 2fb98 Creating DB /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.0xwarriors.com_0.indexeddb.leveldb since it was missing.
-2021/04/23-12:06:09.289 2fb98 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_play.0xwarriors.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/23-12:24:18.893 3a8ad Level-0 table #5: started
-2021/04/23-12:24:18.902 3a8ad Level-0 table #5: 34782 bytes OK
-2021/04/23-12:24:18.906 3a8ad Delete type=0 #3
-2021/04/23-12:24:18.906 3a8ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)

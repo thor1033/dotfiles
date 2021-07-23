@@ -1,0 +1,3 @@
+#!/bin/sh
+price=$(curl rate.sx/1eth | awk '{printf("%.2f", $1)}') 
+echo "<fc=#ff79c6><fn=2></fn> $price $ </fc>"

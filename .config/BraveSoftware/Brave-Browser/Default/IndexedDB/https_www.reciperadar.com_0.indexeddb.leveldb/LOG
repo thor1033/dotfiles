@@ -1,5 +1,0 @@
-2021/04/08-08:52:47.110 4330 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reciperadar.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/08-08:52:51.697 619b Level-0 table #5: started
-2021/04/08-08:52:51.703 619b Level-0 table #5: 8646 bytes OK
-2021/04/08-08:52:51.704 619b Delete type=0 #3
-2021/04/08-08:52:51.705 619b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

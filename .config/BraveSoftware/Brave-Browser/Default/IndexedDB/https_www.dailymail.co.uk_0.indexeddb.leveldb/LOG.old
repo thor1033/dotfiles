@@ -1,5 +1,0 @@
-2021/04/20-14:45:04.774 13e1d3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dailymail.co.uk_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/20-14:45:55.739 13e1d2 Level-0 table #5: started
-2021/04/20-14:45:55.740 13e1d2 Level-0 table #5: 2414 bytes OK
-2021/04/20-14:45:55.742 13e1d2 Delete type=0 #3
-2021/04/20-14:45:55.742 13e1d2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,7 +1,0 @@
-2021/03/10-19:01:28.341 328e Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/10-19:01:28.341 328e Recovering log #3
-2021/03/10-19:01:28.341 328e Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb/000003.log 
-2021/03/10-19:52:56.727 36bc Level-0 table #5: started
-2021/03/10-19:52:56.728 36bc Level-0 table #5: 1317 bytes OK
-2021/03/10-19:52:56.730 36bc Delete type=0 #3
-2021/03/10-19:52:56.730 36bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2021/04/19-12:49:58.797 bdb53 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.mamamia.com.au_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/19-12:50:42.620 bdb54 Level-0 table #5: started
-2021/04/19-12:50:42.627 bdb54 Level-0 table #5: 41197 bytes OK
-2021/04/19-12:50:42.627 bdb54 Delete type=0 #3
-2021/04/19-12:50:42.627 bdb54 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

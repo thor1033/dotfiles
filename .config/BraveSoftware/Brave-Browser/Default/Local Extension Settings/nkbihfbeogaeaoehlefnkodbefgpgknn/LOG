@@ -1,21 +1,9 @@
-2021/06/10-10:35:34.979 8b83 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
-2021/06/10-10:35:34.980 8b83 Recovering log #2514
-2021/06/10-10:35:34.981 8b83 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/002514.log 
-2021/06/10-10:54:55.500 1a8f0 Level-0 table #2518: started
-2021/06/10-10:54:55.511 1a8f0 Level-0 table #2518: 799272 bytes OK
-2021/06/10-10:54:55.512 1a8f0 Delete type=0 #2514
-2021/06/10-10:54:55.512 1a8f0 Compacting 4@0 + 1@1 files
-2021/06/10-10:54:55.517 1a8f0 Generated table #2519@0: 2 keys, 38233 bytes
-2021/06/10-10:54:55.517 1a8f0 Compacted 4@0 + 1@1 files => 38233 bytes
-2021/06/10-10:54:55.517 1a8f0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2021/06/10-10:54:55.517 1a8f0 Delete type=2 #2511
-2021/06/10-10:54:55.517 1a8f0 Delete type=2 #2518
-2021/06/10-10:54:55.517 1a8f0 Delete type=2 #2513
-2021/06/10-10:54:55.517 1a8f0 Delete type=2 #2515
-2021/06/10-10:54:55.517 1a8f0 Delete type=2 #2509
-2021/06/10-11:30:30.159 3832c Level-0 table #2521: started
-2021/06/10-11:30:30.169 3832c Level-0 table #2521: 803728 bytes OK
-2021/06/10-11:30:30.169 3832c Delete type=0 #2517
-2021/06/10-11:59:38.970 4fa2c Level-0 table #2523: started
-2021/06/10-11:59:38.984 4fa2c Level-0 table #2523: 802847 bytes OK
-2021/06/10-11:59:38.985 4fa2c Delete type=0 #2520
+2021/07/23-09:55:38.992 42e Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2021/07/23-09:55:38.992 42e Recovering log #3456
+2021/07/23-09:55:39.000 42e Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/003456.log 
+2021/07/23-09:59:07.678 44f Level-0 table #3460: started
+2021/07/23-09:59:07.698 44f Level-0 table #3460: 789651 bytes OK
+2021/07/23-09:59:07.698 44f Delete type=0 #3456
+2021/07/23-10:22:24.563 1a2ea Level-0 table #3462: started
+2021/07/23-10:22:24.579 1a2ea Level-0 table #3462: 796414 bytes OK
+2021/07/23-10:22:24.580 1a2ea Delete type=0 #3459

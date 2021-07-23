@@ -1,15 +1,7 @@
-2021/04/11-17:22:31.963 c9b51 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/11-17:22:31.963 c9b51 Recovering log #59
-2021/04/11-17:22:31.963 c9b51 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/000059.log 
-2021/04/11-17:24:42.036 d0be9 Level-0 table #64: started
-2021/04/11-17:24:42.045 d0be9 Level-0 table #64: 10154 bytes OK
-2021/04/11-17:24:42.046 d0be9 Delete type=0 #59
-2021/04/11-17:24:42.046 d0be9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/04/11-17:24:42.046 d0be9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x003\x008\x007\x000\x007\x001\x005\x000\x001\x005\x008\x003\x00:\x00w\x00e\x00b\x00:\x003\x008\x003\x00e\x00d\x00b\x00a\x009\x00b\x002\x000\x00f\x00e\x001\x004\x000\x00f\x004\x00c\x00a\x007\x00a' @ 2068 : 1
-2021/04/11-17:24:42.046 d0be9 Compacting 1@1 + 1@2 files
-2021/04/11-17:24:42.047 d0be9 Generated table #65@1: 56 keys, 2583 bytes
-2021/04/11-17:24:42.047 d0be9 Compacted 1@1 + 1@2 files => 2583 bytes
-2021/04/11-17:24:42.047 d0be9 compacted to: files[ 0 0 1 0 0 0 0 ]
-2021/04/11-17:24:42.047 d0be9 Delete type=2 #64
-2021/04/11-17:24:42.047 d0be9 Delete type=2 #61
-2021/04/11-17:24:42.047 d0be9 Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x003\x008\x007\x000\x007\x001\x005\x000\x001\x005\x008\x003\x00:\x00w\x00e\x00b\x00:\x003\x008\x003\x00e\x00d\x00b\x00a\x009\x00b\x002\x000\x00f\x00e\x001\x004\x000\x00f\x004\x00c\x00a\x007\x00a' @ 2068 : 1 .. (end); will stop at (end)
+2021/07/23-10:29:57.333 21a2f Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/23-10:29:57.333 21a2f Recovering log #3
+2021/07/23-10:29:57.334 21a2f Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/000003.log 
+2021/07/23-10:30:53.186 1b138 Level-0 table #5: started
+2021/07/23-10:30:53.187 1b138 Level-0 table #5: 13767 bytes OK
+2021/07/23-10:30:53.188 1b138 Delete type=0 #3
+2021/07/23-10:30:53.188 1b138 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

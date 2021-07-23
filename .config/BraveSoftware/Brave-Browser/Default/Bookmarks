@@ -1,5 +1,5 @@
 {
-   "checksum": "4525ac95e8c8a8a6c918d26758a1ed44",
+   "checksum": "e34e97e53d9d71e632a22a1bed16cfb6",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -217,9 +217,30 @@
                "name": "Font Awesome Cheatsheet",
                "type": "url",
                "url": "https://fontawesome.com/v4.7/cheatsheet/"
+            }, {
+               "date_added": "13268415028515006",
+               "guid": "b8716f55-c3d0-43fd-969c-fec23394d2d9",
+               "id": "97",
+               "name": "Documents/KU/",
+               "type": "url",
+               "url": "http://localhost:8888/tree/Documents/KU"
+            }, {
+               "date_added": "13270899585992218",
+               "guid": "0307b0ba-5921-4eae-b92e-38c17a338b39",
+               "id": "99",
+               "name": "Cheatsheet | Font Awesome",
+               "type": "url",
+               "url": "https://fontawesome.com/v5/cheatsheet/free"
+            }, {
+               "date_added": "13270901245144717",
+               "guid": "88e56909-4b04-4657-a0e3-3434b1be5e72",
+               "id": "100",
+               "name": "Cheatsheet | Font Awesome",
+               "type": "url",
+               "url": "https://fontawesome.com/v5/cheatsheet/free/solid"
             } ],
             "date_added": "13260011414370451",
-            "date_modified": "13267307608520698",
+            "date_modified": "13270901245144717",
             "guid": "4b4ccc19-daf6-47d8-b07d-09d9f16a6a92",
             "id": "26",
             "name": "Linux",

@@ -1,8 +1,0 @@
-2021/03/21-09:14:51.520 8b3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_opensea.io_0.indexeddb.leveldb/MANIFEST-000001
-2021/03/21-09:14:51.521 8b3 Recovering log #4
-2021/03/21-09:14:51.521 8b3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_opensea.io_0.indexeddb.leveldb/000004.log 
-2021/03/21-09:22:20.973 95d Level-0 table #8: started
-2021/03/21-09:22:20.973 95d Level-0 table #8: 0 bytes OK
-2021/03/21-09:22:20.978 95d Delete type=0 #4
-2021/03/21-09:22:20.979 95d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2021/03/21-09:22:20.979 95d Manual compaction at level-1 from (begin) .. (end); will stop at (end)

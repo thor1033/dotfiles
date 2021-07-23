@@ -1,5 +1,0 @@
-2021/04/09-22:48:26.190 f66 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_help.coinbase.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/04/09-22:48:49.883 f45 Level-0 table #5: started
-2021/04/09-22:48:49.884 f45 Level-0 table #5: 1503 bytes OK
-2021/04/09-22:48:49.886 f45 Delete type=0 #3
-2021/04/09-22:48:49.886 f45 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

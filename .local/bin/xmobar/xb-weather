@@ -1,0 +1,19 @@
+#!/bin/sh
+
+weather=$(curl -sf "wttr.in/$LOCATION?format=1")
+temp=$(echo "$weather" | awk '{printf($2)}' | grep -o '[0-9]*')
+emoji=$(echo "$weather" | awk '{printf($1)}')
+
+if [ "$temp" -gt "30" ]; then
+  icon=""
+elif [ "$temp" -lt "30" ] && [ "$temp" -gt "19" ]; then
+  icon=""
+elif [ "$temp" -lt "20" ] && [ "$temp" -gt "9" ]; then
+  icon=""
+elif [ "$temp" -lt "10" ] && [ "$temp" -gt "0" ]; then
+  icon=""
+else
+  icon=""
+fi
+
+echo "<fc=#f8f8f2><fn=3>$emoji</fn><fn=1>$icon</fn> $temp°C</fc>"

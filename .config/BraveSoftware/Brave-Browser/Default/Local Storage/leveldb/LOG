@@ -1,36 +1,6 @@
-2021/06/10-10:35:33.376 3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2021/06/10-10:35:33.379 3 Recovering log #14026
-2021/06/10-10:35:33.379 3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/014026.log 
-2021/06/10-10:36:28.924 3 Level-0 table #14030: started
-2021/06/10-10:36:28.933 3 Level-0 table #14030: 33302 bytes OK
-2021/06/10-10:36:28.935 3 Delete type=0 #14026
-2021/06/10-10:40:30.144 3 Level-0 table #14032: started
-2021/06/10-10:40:30.163 3 Level-0 table #14032: 630414 bytes OK
-2021/06/10-10:40:30.164 3 Delete type=0 #14029
-2021/06/10-11:09:14.522 3 Level-0 table #14034: started
-2021/06/10-11:09:14.530 3 Level-0 table #14034: 24012 bytes OK
-2021/06/10-11:09:14.533 3 Delete type=0 #14031
-2021/06/10-11:09:14.534 3 Compacting 4@0 + 4@1 files
-2021/06/10-11:09:14.617 3 Generated table #14035@0: 911 keys, 2276439 bytes
-2021/06/10-11:09:14.651 3 Generated table #14036@0: 735 keys, 2149555 bytes
-2021/06/10-11:09:14.688 3 Generated table #14037@0: 1517 keys, 2484594 bytes
-2021/06/10-11:09:14.700 3 Generated table #14038@0: 1034 keys, 586917 bytes
-2021/06/10-11:09:14.700 3 Compacted 4@0 + 4@1 files => 7497505 bytes
-2021/06/10-11:09:14.701 3 compacted to: files[ 0 6 5 0 0 0 0 ]
-2021/06/10-11:09:14.702 3 Delete type=2 #14034
-2021/06/10-11:09:14.702 3 Delete type=2 #14022
-2021/06/10-11:09:14.702 3 Delete type=2 #14024
-2021/06/10-11:09:14.702 3 Delete type=2 #14023
-2021/06/10-11:09:14.702 3 Delete type=2 #14025
-2021/06/10-11:09:14.702 3 Delete type=2 #14030
-2021/06/10-11:09:14.702 3 Delete type=2 #14027
-2021/06/10-11:09:14.702 3 Delete type=2 #14032
-2021/06/10-11:30:38.522 12 Level-0 table #14040: started
-2021/06/10-11:30:38.545 12 Level-0 table #14040: 457023 bytes OK
-2021/06/10-11:30:38.549 12 Delete type=0 #14033
-2021/06/10-11:49:54.535 1a Level-0 table #14042: started
-2021/06/10-11:49:54.607 1a Level-0 table #14042: 483146 bytes OK
-2021/06/10-11:49:54.615 1a Delete type=0 #14039
-2021/06/10-11:51:23.523 1a Level-0 table #14044: started
-2021/06/10-11:51:23.557 1a Level-0 table #14044: 630958 bytes OK
-2021/06/10-11:51:23.560 1a Delete type=0 #14041
+2021/07/23-09:55:37.112 3 Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2021/07/23-09:55:37.113 3 Recovering log #29
+2021/07/23-09:55:37.116 3 Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000029.log 
+2021/07/23-10:02:46.025 3 Level-0 table #33: started
+2021/07/23-10:02:46.028 3 Level-0 table #33: 18467 bytes OK
+2021/07/23-10:02:46.031 3 Delete type=0 #29

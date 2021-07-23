@@ -1,0 +1,7 @@
+#!/bin/sh
+
+clock=$(date "+%H:%M")
+
+date=$(date "+%b %d")
+
+echo "<fc=#8be9fd><fn=1></fn> $date - <fn=1></fn> $clock </fc>"

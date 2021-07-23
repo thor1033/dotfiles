@@ -1,0 +1,4 @@
+#!/bin/sh
+newmail=$(find "${XDG_DATA_HOME:-$HOME/.local/share}"/mail/thor_simonsen@hotmail.com/[Ii][Nn][Bb][Oo][Xx]/new/* -type f | wc -l 2>/dev/null)
+
+echo "<fc=#bd93f9><fn=1></fn>-$newmail </fc>"
