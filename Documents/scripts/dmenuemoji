@@ -1,4 +1,0 @@
-#!/bin/sh
-
-
-grep -v "#" ~/.local/bin/emoji | dmenu -i -l 20 -fn Symbola-18 | awk '{print $1}' | tr -d '\n' | xclip -selection clipboard
