@@ -1,7 +1,0 @@
-2021/07/23-10:29:57.333 21a2f Reusing MANIFEST /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/23-10:29:57.333 21a2f Recovering log #3
-2021/07/23-10:29:57.334 21a2f Reusing old log /home/thor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dr.dk_0.indexeddb.leveldb/000003.log 
-2021/07/23-10:30:53.186 1b138 Level-0 table #5: started
-2021/07/23-10:30:53.187 1b138 Level-0 table #5: 13767 bytes OK
-2021/07/23-10:30:53.188 1b138 Delete type=0 #3
-2021/07/23-10:30:53.188 1b138 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
