@@ -83,7 +83,7 @@ myWorkspaces    = ["1","2","3","4","5","6","7","8","9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor  = "#282828"
+myNormalBorderColor  = "#292d3e"
 myFocusedBorderColor = "#bd93f9"
 
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
@@ -118,11 +118,12 @@ myKeys =
 	[("M-<Return>", spawn (myTerminal))
 	,("M-w",        spawn (myBrowser))
 	,("M-d",	spawn ("rofi -no-lazy-grab -show drun -modi drun -theme /home/thor/.config/rofi/launchers/ribbon/ribbon_right.rasi"))
-	,("M-e",	spawn ("alacritty -e neomutt"))
-	,("M-m",  spawn ("alacritty -e ncmpcpp"))
-	,("M-r",	spawn ("alacritty -e ranger"))
-	,("M-n",	spawn ("alacritty -e nvim"))
-	,("M-c",	spawn ("alacritty -e calcurse"))
+	,("M-e",	spawn (myTerminal ++ " -e neomutt"))
+	,("M-m",  spawn (myTerminal ++ " -e ncmpcpp"))
+	,("M-r",	spawn (myTerminal ++ " -e ranger"))
+	,("M-n",	spawn (myTerminal ++ " -e nvim"))
+	,("M-c",	spawn (myTerminal ++ " -e calcurse"))
+	,("M-s",	spawn (myTerminal ++ " -e pulsemixer"))
 	,("M-æ",	spawn ("rofi -no-lazy-grab -show emoji -modi emoji -theme ~/.config/rofi/launchers/text/style_3.rasi"))
 	,("M-p",	spawn ("xournalpp"))
 	,("M-<Print>",	spawn ("scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' "))
@@ -145,6 +146,9 @@ myKeys =
 	--Gaps
 	,("M-z", incWindowSpacing 5)
 	,("M-x", decWindowSpacing 5)
+	,("M-S-z", incScreenSpacing 5)
+	,("M-S-x", decScreenSpacing 5)
+
 	,("M-h", sendMessage Shrink)
 	,("M-l", sendMessage Expand)
 	
@@ -161,11 +165,11 @@ myKeys =
 	,("M-<End>", spawn ("mpc prev"))
 
 	--Volume
-	,("M-<Page_Up>", spawn ("pamixer --allow-boost -i 5"))
-	,("M-S-<Page_Up>", spawn ("pamixer --allow-boost -i 15"))
-	,("M-<Page_Down>", spawn ("pamixer --allow-boost -d 5"))
-	,("M-S-<Page_Down>", spawn ("pamixer --allow-boost -d 15"))
-	,("M-S-m", spawn ("pamixer -t"))
+	,("M-<Page_Up>", spawn ("changeVolume 5"))
+	,("M-S-<Page_Up>", spawn ("changeVolume 15"))
+	,("M-<Page_Down>", spawn ("changeVolume -5"))
+	,("M-S-<Page_Down>", spawn ("changeVolume -15"))
+	,("M-S-m", spawn ("changeVolume 0"))
 
 	--Layout	
 	,("M-<Tab>", sendMessage NextLayout)
@@ -254,15 +258,15 @@ main = do
         startupHook        = myStartupHook,
         logHook            = workspaceHistoryHook <+> myLogHook <+> dynamicLogWithPP xmobarPP
 	        { ppOutput = \x -> hPutStrLn xmproc0 x >> hPutStrLn xmproc1 x
-		, ppCurrent = xmobarColor "#b4be82" "" . wrap "{" "}"
-		, ppVisible = xmobarColor "#b4be82" "" 
-		, ppHidden = xmobarColor "#89b8c2" "" . wrap "*" "" 
-		, ppHiddenNoWindows = xmobarColor "#ba093c7" "" 
-		, ppTitle = xmobarColor "#b4be82" "" . shorten 60
-		, ppSep = "<fc=#a89984> <fn=1>    </fn> </fc>"
-		, ppUrgent = xmobarColor "#cc241d" "". wrap "!" "!"
+		, ppCurrent = xmobarColor "#50fa7b" "" . wrap "{" "}"
+		, ppVisible = xmobarColor "#50fa7b" "" 
+		, ppHidden = xmobarColor "#8be9fd" "" . wrap "*" "" 
+		, ppHiddenNoWindows = xmobarColor "#bd93f9" "" 
+		, ppTitle = xmobarColor "#f8f8f2" "" . shorten 60
+		, ppSep = "<fc=#f1da8c> <fn=1>\xf142</fn> </fc>"
+		, ppUrgent = xmobarColor "#ff5555" "". wrap "!" "!"
 		, ppExtras = [windowCount] 
-		, ppLayout = xmobarColor "#e27878" ""
+		, ppLayout = xmobarColor "#ff5555" ""
 		, ppOrder = \(ws:l:t:ex) -> [ws,l]++ex++[t]
 		}
     } `additionalKeysP` myKeys

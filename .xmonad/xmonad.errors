@@ -1,6 +1,6 @@
 
 xmonad.hs:99:1: warning: [-Wtabs]
-    Tab character found here, and in 126 further locations.
+    Tab character found here, and in 130 further locations.
     Please use spaces instead.
    |
 99 |         $ windowNavigation
