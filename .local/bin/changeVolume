@@ -1,0 +1,34 @@
+#!/bin/bash
+# changeVolume
+
+# Arbitrary but unique message id
+msgId="991049"
+
+# Change the volume using alsa(might differ if you use pulseaudio)
+
+# Query amixer for the current volume and whether or not the speaker is muted
+if [[ $1 -gt "0" ]]; then
+    pamixer --allow-boost -i $1 > /dev/null
+elif [[ $1 -lt "0" ]]; then
+    vol=$(( $1 * (-1)))
+    pamixer --allow-boost -d $vol > /dev/null
+else
+    pamixer -t
+fi
+
+
+volume="$(pamixer --get-volume)"
+mute="$(pamixer --get-mute)"
+
+
+if [[ $volume == 0 || "$mute" == "off" ]]; then
+    # Show the sound muted notification
+    dunstify -a "changeVolume" -u low -i audio-volume-muted -r "$msgId" "Volume muted" 
+else
+    # Show the volume notification
+    dunstify -a "changeVolume" -u low -i audio-volume-high -r "$msgId" \
+    -h int:value:"$volume" "Volume: ${volume}%"
+fi
+
+# Play the volume changed sound
+canberra-gtk-play -i audio-volume-change -d "changeVolume"
