@@ -19,6 +19,7 @@ set nobackup
 set nowritebackup
 
 autocmd BufEnter *.tex set spell spelllang=da_dk
+autocmd BufEnter *.md set spell spelllang=da_dk
 
 call plug#begin()
 Plug 'dracula/vim', { 'as': 'dracula' }
