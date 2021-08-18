@@ -1,4 +1,4 @@
 #!/bin/sh
 price=$(curl -s http://api.coindesk.com/v1/bpi/currentprice.json | python -c "import json, sys; print(json.load(sys.stdin)['bpi']['USD']['rate'])" | sed 's/[,]//' | sed 's/[.][0-9]*//')
 
-echo "<fc=#ffb86c><fn=2></fn> $price $ </fc>"
+echo "<box type=Bottom width=2 color=#ffb86c><fc=#ffb86c><fn=2></fn> $price $ </fc></box>"

@@ -2,4 +2,4 @@
 newmail=$(find "${XDG_DATA_HOME:-$HOME/.local/share}"/mail/zvr697@alumni.ku.dk/[Ii][Nn][Bb][Oo][Xx]/new/* -type f | wc -l 2>/dev/null)
 
 
-echo "<fc=#ff5555><fn=1></fn>-$newmail </fc>"
+echo "<box type=Bottom width=2 color=#ff5555><fc=#ff5555><fn=1></fn>-$newmail </fc></box>"

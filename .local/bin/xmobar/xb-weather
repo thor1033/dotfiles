@@ -16,4 +16,4 @@ else
   icon=""
 fi
 
-echo "<fc=#f8f8f2><fn=3>$emoji</fn><fn=1>$icon</fn> $temp°C</fc>"
+echo "<box type=Bottom width=2 color=#f8f8f2><fc=#f8f8f2><fn=3>$emoji</fn><fn=1>$icon</fn> $temp°C</fc></box>"

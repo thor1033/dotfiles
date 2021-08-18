@@ -4,4 +4,4 @@ clock=$(date "+%H:%M")
 
 date=$(date "+%b %d")
 
-echo "<fc=#8be9fd><fn=1></fn> $date - <fn=1></fn> $clock </fc>"
+echo "<box type=Bottom width=2 color=#8be9fd><fc=#8be9fd><fn=1></fn> $date - <fn=1></fn> $clock </fc></box>"

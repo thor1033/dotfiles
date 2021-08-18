@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[ $(pamixer --get-mute) = true ] && echo "<fn=1></fn> (muted)" && exit
+[ $(pamixer --get-mute) = true ] && echo "<box type=Bottom width=2 color=#50fa7b><fc=#50fa7b><fn=1></fn> (muted) </fc></box>" && exit
 
 vol="$(pamixer --get-volume)"
 
@@ -12,4 +12,4 @@ else
 	icon=""
 fi
 
-echo "<fc=#50fa7b><fn=1>$icon</fn> ($vol%) </fc>"
+echo "<box type=Bottom width=2 color=#50fa7b><fc=#50fa7b><fn=1>$icon</fn> ($vol%) </fc></box>"
