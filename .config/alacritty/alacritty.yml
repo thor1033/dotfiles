@@ -1,39 +1,47 @@
 font:
   normal:
-    family: mononoki
+    family: Mononoki
     style: Regular
   bold:
-    family: mononoki
+    family: Mononoki
     style: Bold
   italic:
-    family: mononoki
+    family: Mononoki
     style: Italic
   bold_italic:
-    family: mononoki
+    family: Mononoki
   size: 11.5
-background_opacity: 1
+background_opacity: 0.8
+# Colors
 colors:
+  # Default colors
   primary:
-    background: "#292C3E"
-    foreground: "#EBEBEB"
+    background: "#1E1E3F"
+    foreground: "#E1EFFF"
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: "#FF261E"
-    cursor: "#FF261E"
+    text: "#1E1E3F"
+    cursor: "#FAD000"
+
+  # Normal colors
   normal:
-    black: "#0d0d0d"
-    red: "#FF301B"
-    green: "#A0E521"
-    yellow: "#FFC620"
-    blue: "#1BA6FA"
-    magenta: "#8763B8"
-    cyan: "#21DEEF"
-    white: "#EBEBEB"
+    black: "#000000"
+    red: "#EC3A37"
+    green: "#75e44c"
+    yellow: "#FAD000"
+    blue: "#6943FF"
+    magenta: "#FF2C70"
+    cyan: "#80FCFF"
+    white: "#FFFFFF"
+
+  # Bright colors
   bright:
-    black: "#6D7070"
-    red: "#FF4352"
-    green: "#B8E466"
-    yellow: "#FFD750"
-    blue: "#1BA6FA"
-    magenta: "#A578EA"
-    cyan: "#73FBF1"
-    white: "#FEFEF8"
+    black: "#5C5C61"
+    red: "#EC3A37"
+    green: "#3AD900"
+    yellow: "#FAD000"
+    blue: "#6943FF"
+    magenta: "#FB94FF"
+    cyan: "#80FCFF"
+    white: "#2D2B55"
