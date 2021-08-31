@@ -6,7 +6,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
        , bgColor = "#292d3e"
        --, borderColor = "#bd93f9"
        --, border = FullB
-       , position = Static { xpos = 1935 , ypos = 10, width = 1890, height = 24 }
+       , position = Static { xpos = 1920 , ypos = 0, width = 1920, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False
        , allDesktops = True
