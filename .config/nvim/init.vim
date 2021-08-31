@@ -23,6 +23,7 @@ autocmd BufEnter *.md set spell spelllang=da_dk
 
 call plug#begin()
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'neovimhaskell/haskell-vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'nvim-lua/popup.nvim'
@@ -40,10 +41,11 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dense-analysis/ale'
+Plug 'Rigellute/shades-of-purple.vim'
 call plug#end()
 
 set background=dark
-colorscheme palenight
+colorscheme dracula
 
 if (has("nvim"))
   "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
@@ -58,8 +60,9 @@ if (has("termguicolors"))
 endif
 
 let g:vimtex_view_general_viewer = 'zathura'
-let g:airline_theme='dracula'
-let g:airline_powerline_fonts = 2
+let g:airline_theme='shades_of_purple'
+let g:shades_of_purple_airline = 1
+let g:airline_powerline_fonts = 1
 let g:Tex_FoldedSections = 'part|addpart,chapter|addchap,section|addsec,subsection,subsubsection,paragraph,subparagraph'
 
 nnoremap <C-h> <C-w>h
