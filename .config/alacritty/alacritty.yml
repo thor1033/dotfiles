@@ -12,36 +12,76 @@ font:
     family: Mononoki
   size: 11.5
 background_opacity: 0.8
-# Colors
+## Colors
+#colors:
+#  # Default colors
+#  primary:
+#    background: "#1E1E3F"
+#    foreground: "#E1EFFF"
+#
+#  # Colors the cursor will use if `custom_cursor_colors` is true
+#  cursor:
+#    text: "#1E1E3F"
+#    cursor: "#FAD000"
+#
+#  # Normal colors
+#  normal:
+#    black: "#000000"
+#    red: "#EC3A37"
+#    green: "#75e44c"
+#    yellow: "#FAD000"
+#    blue: "#6943FF"
+#    magenta: "#FF2C70"
+#    cyan: "#80FCFF"
+#    white: "#FFFFFF"
+#
+#  # Bright colors
+#  bright:
+#    black: "#5C5C61"
+#    red: "#EC3A37"
+#    green: "#3AD900"
+#    yellow: "#FAD000"
+#    blue: "#6943FF"
+#    magenta: "#FB94FF"
+#    cyan: "#80FCFF"
+#    white: "#2D2B55"
 colors:
   # Default colors
   primary:
-    background: "#1E1E3F"
-    foreground: "#E1EFFF"
+    background: '0x002b36'
+    foreground: '0x93a1a1'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: "#1E1E3F"
-    cursor: "#FAD000"
+    text: '0x002b36'
+    cursor: '0x93a1a1'
 
   # Normal colors
   normal:
-    black: "#000000"
-    red: "#EC3A37"
-    green: "#75e44c"
-    yellow: "#FAD000"
-    blue: "#6943FF"
-    magenta: "#FF2C70"
-    cyan: "#80FCFF"
-    white: "#FFFFFF"
+    black:   '0x002b36'
+    red:     '0xdc322f'
+    green:   '0x859900'
+    yellow:  '0xb58900'
+    blue:    '0x268bd2'
+    magenta: '0x6c71c4'
+    cyan:    '0x2aa198'
+    white:   '0x93a1a1'
 
   # Bright colors
   bright:
-    black: "#5C5C61"
-    red: "#EC3A37"
-    green: "#3AD900"
-    yellow: "#FAD000"
-    blue: "#6943FF"
-    magenta: "#FB94FF"
-    cyan: "#80FCFF"
-    white: "#2D2B55"
+    black:   '0x657b83'
+    red:     '0xdc322f'
+    green:   '0x859900'
+    yellow:  '0xb58900'
+    blue:    '0x268bd2'
+    magenta: '0x6c71c4'
+    cyan:    '0x2aa198'
+    white:   '0xfdf6e3'
+
+  indexed_colors:
+    - { index: 16, color: '0xcb4b16' }
+    - { index: 17, color: '0xd33682' }
+    - { index: 18, color: '0x073642' }
+    - { index: 19, color: '0x586e75' }
+    - { index: 20, color: '0x839496' }
+    - { index: 21, color: '0xeee8d5' }

@@ -3,7 +3,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
                             "xft:Font Awesome 5 Brands:pixelsize=13",
                             "xft:joypixels:pixelsize=13:antialias=true"]
        , fgColor = "#84a0c6"
-       , bgColor = "#292d3e"
+       , bgColor = "#073643"
        --, alpha = 200
        --, borderColor = "#bd93f9"
        --, border = FullB
@@ -26,5 +26,5 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
         ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %sep% %UnsafeStdinReader% %sep% }{ %sep% %ethprice% %sep% %btcprice% %sep% %kumail% %sep% %hotmail% %sep% %volume% %sep% %weather% %sep% %clock% %sep%"
+       , template = "  %UnsafeStdinReader% }{  %ethprice% %btcprice% %kumail% %hotmail% %volume% %weather% %clock% "
        }
