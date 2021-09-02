@@ -30,8 +30,10 @@ import XMonad.Layout.Spiral
 import XMonad.Layout.Tabbed
 import XMonad.Layout.ThreeColumns
 import XMonad.Layout.WindowNavigation
+import XMonad.ManageHook
 import qualified XMonad.StackSet as W
 import XMonad.Util.EZConfig (additionalKeysP)
+import XMonad.Util.NamedScratchpad
 import XMonad.Util.Run
 import XMonad.Util.SpawnOnce
 import XMonad.Util.Ungrab
@@ -75,9 +77,27 @@ myWorkspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor = "#292d3e"
+myNormalBorderColor = "#073642"
 
-myFocusedBorderColor = "#bd93f9"
+myFocusedBorderColor = "#2aa198"
+
+--ScratchPads
+--
+
+scratchpads =
+  [ -- run htop in xterm, find it by title, use default floating window placement
+    NS "terminal" spawnTerm findTerm manageTerm,
+    NS "htop" "xterm -e htop" (resource =? "htop") manageTerm
+  ]
+  where
+    spawnTerm = myTerminal ++ " -name scratchpad"
+    findTerm = resource =? "scratchpad"
+    manageTerm = customFloating $ W.RationalRect l t w h
+      where
+        h = 0.9
+        w = 0.9
+        t = 0.95 - h
+        l = 0.95 - w
 
 mySpacing :: Integer -> l a -> XMonad.Layout.LayoutModifier.ModifiedLayout Spacing l a
 mySpacing i = spacingRaw False (Border i i i i) True (Border i i i i) True
@@ -114,17 +134,17 @@ myKeys =
   --Launch Programs
   [ ("M-<Return>", spawn (myTerminal)),
     ("M-w", spawn (myBrowser)),
-    ("M-d", spawn ("rofi -no-lazy-grab -show drun -modi drun -theme /home/thor/.config/rofi/launchers/ribbon/ribbon_right.rasi")),
+    ("M-d", spawn ("rofi -no-lazy-grab -show drun -modi drun")),
     ("M-e", spawn (myTerminal ++ " -e neomutt")),
     ("M-m", spawn (myTerminal ++ " -e ncmpcpp")),
     ("M-r", spawn (myTerminal ++ " -e ranger")),
     ("M-n", spawn (myTerminal ++ " -e nvim")),
     ("M-c", spawn (myTerminal ++ " -e calcurse")),
     ("M-s", spawn (myTerminal ++ " -e pulsemixer")),
-    ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji -theme ~/.config/rofi/launchers/text/style_3.rasi")),
+    ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji")),
     ("M-p", spawn ("xournalpp")),
-    ("M-<Print>", unGrab *> spawn ("scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' ")),
-    ("M-<KP_Enter>", spawn ("rofi -no-lazy-grab -show calc -modi calc -theme ~/.config/rofi/launchers/text/style_1.rasi")),
+    ("M-<Print>", unGrab *> spawn ("sleep 0.2; scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' ")),
+    ("M-<KP_Enter>", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
     ("M-<Esc>", spawn ("/usr/local/bin/./powermenu.sh")),
     --Navigation
     ("M-j", windows W.focusDown),
@@ -150,6 +170,9 @@ myKeys =
     ("M-f", sendMessage ToggleStruts <+> setWindowSpacing (Border 0 0 0 0)),
     --,("M-S-r" spawn "xmonad --recompile")
 
+    --ScratchPads
+    ("M-y", namedScratchpadAction scratchpads "htop"),
+    ("M-u", namedScratchpadAction scratchpads "terminal"),
     --Music
     ("M-<Insert>", spawn ("mpc toggle")),
     ("M-<Delete>", spawn ("mpc stop")),
@@ -215,7 +238,6 @@ myStartupHook = do
   spawnOnce "nitrogen --restore &"
   spawnOnce "picom &"
   spawnOnce "mpd &"
-  spawnOnce "redshift &"
   spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
   spawnOnce "xmodmap ~/.Xmodmap &"
@@ -251,16 +273,16 @@ main = do
               <+> dynamicLogWithPP
                 xmobarPP
                   { ppOutput = \x -> hPutStrLn xmproc0 x >> hPutStrLn xmproc1 x,
-                    ppCurrent = xmobarColor "#50fa7b" "" . xmobarBorder "Bottom" "#50fa7b" 2 . pad,
-                    ppVisible = xmobarColor "#50fa7b" "",
-                    ppHidden = xmobarColor "#ffb86c" "" . xmobarBorder "Bottom" "#ffb86c" 2 . pad,
-                    ppHiddenNoWindows = xmobarColor "#bd93f9" "" . pad,
+                    ppCurrent = xmobarColor "#859900" "" . xmobarBorder "Bottom" "#859900" 2 . pad,
+                    ppVisible = xmobarColor "#859900" "" . pad,
+                    ppHidden = xmobarColor "#2aa198" "" . pad,
+                    ppHiddenNoWindows = xmobarColor "#586e75" "" . pad,
                     ppTitle = xmobarColor "#f8f8f2" "" . shorten 60,
                     ppSep = "<fc=#f1da8c> <fn=1>\xf142</fn> </fc>",
                     ppUrgent = xmobarColor "#ff5555" "" . wrap "!" "!",
                     ppExtras = [windowCount],
                     ppLayout = xmobarColor "#ff5555" "" . xmobarBorder "Bottom" "#ff5555" 2,
-                    ppOrder = \(ws : l : t : ex) -> [ws, l]
+                    ppOrder = \(ws : l : t : ex) -> [ws]
                   }
         }
       `additionalKeysP` myKeys
