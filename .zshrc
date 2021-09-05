@@ -101,7 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 
-alias ku="cd ~/Documents/KU/ && fzf | xargs -r -I % $EDITOR %"
+alias ku="cd /mnt/Dokumenter/KU/ && fzf | xargs -r -I % $EDITOR %"
+alias kur="cd /mnt/Dokumenter/KU/ && ranger"
 
 cf() { du -a ~/.config/* | awk '{print $2}' | fzf | xargs -r $EDITOR ;}
 
