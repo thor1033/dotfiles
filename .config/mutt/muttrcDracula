@@ -1,0 +1,80 @@
+#color212 = PINK
+#color141 = PURPLE
+#color117 = LIGHT BLUE
+#color84 = GREEN
+#color215 = ORANGE
+#color210 = ORANGE-RED
+#color231 = WHITE
+#color228 = YELLOW
+
+# Default index colors:
+color index color212 default '.*'
+color index_author color141 default '.*'
+color index_number color117 default
+color index_subject color84 default '.*'
+
+# New mail is boldened:
+color index color212 black "~N"
+color index_author color141 black "~N"
+color index_subject color84 black "~N"
+
+# Tagged mail is highlighted:
+color index color228 blue "~T"
+color index_author brightred blue "~T"
+color index_subject color117 blue "~T"
+
+# Other colors and aesthetic settings:
+mono bold bold
+mono underline underline
+mono indicator reverse
+mono error bold
+color normal default default
+color indicator brightblack magenta
+color sidebar_highlight red default
+color sidebar_divider brightmagenta default
+color sidebar_flagged red black
+color sidebar_new color210 default
+color normal color228 default
+color error red default
+color tilde black default
+color message color117 default
+color markers red color231
+color attachment color231 default
+color search brightmagenta default
+color status color228 default
+color hdrdefault brightgreen default
+color quoted green default
+color quoted1 blue default
+color quoted2 color117 default
+color quoted3 color228 default
+color quoted4 red default
+color quoted5 brightred default
+color signature brightgreen default
+color bold black default
+color underline black default
+color normal default default
+
+# Regex highlighting:
+color header blue default ".*"
+color header brightmagenta default "^(From)"
+color header brightcolor117 default "^(Subject)"
+color header brightcolor231 default "^(CC|BCC)"
+color body brightred default "[\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+" # Email addresses
+color body brightblue default "(https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+" # URL
+color body green default "\`[^\`]*\`" # Green text between ` and `
+color body brightblue default "^# \.*" # Headings as bold blue
+color body brightcolor117 default "^## \.*" # Subheadings as bold color117
+color body brightgreen default "^### \.*" # Subsubheadings as bold green
+color body color228 default "^(\t| )*(-|\\*) \.*" # List items as yellow
+color body color117 default "[;:][-o][)/(|]" # emoticons
+color body color117 default "[;:][)(|]" # emoticons
+color body color117 default "[ ][*][^*]*[*][ ]?" # more emoticon?
+color body color117 default "[ ]?[*][^*]*[*][ ]" # more emoticon?
+color body red default "(BAD signature)"
+color body color117 default "(Good signature)"
+color body brightblack default "^gpg: Good signature .*"
+color body brightcolor228 default "^gpg: "
+color body brightcolor228 red "^gpg: BAD signature from.*"
+mono body bold "^gpg: Good signature"
+mono body bold "^gpg: BAD signature from.*"
+color body red default "([a-z][a-z0-9+-]*://(((([a-z0-9_.!~*'();:&=+$,-]|%[0-9a-f][0-9a-f])*@)?((([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?|[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)(:[0-9]+)?)|([a-z0-9_.!~*'()$,;:@&=+-]|%[0-9a-f][0-9a-f])+)(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?(#([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?|(www|ftp)\\.(([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?(:[0-9]+)?(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?(#([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?)[^].,:;!)? \t\r\n<>\"]"
