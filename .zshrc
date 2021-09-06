@@ -103,6 +103,7 @@ alias zshconfig="mate ~/.zshrc"
 
 alias ku="cd /mnt/Dokumenter/KU/ && fzf | xargs -r -I % $EDITOR %"
 alias kur="cd /mnt/Dokumenter/KU/ && ranger"
+alias stata="/usr/local/stata17/xstata && exit"
 
 cf() { du -a ~/.config/* | awk '{print $2}' | fzf | xargs -r $EDITOR ;}
 
