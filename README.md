@@ -1,2 +1,4 @@
-# dotfiles
-My dotfiles
+#Dotelot filer
+
+##Sejt billede:
+![.layouts/solarized.png]
