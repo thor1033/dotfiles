@@ -1,4 +1,4 @@
-#Dotelot filer
+Dotelot filer
 
 ##Sejt billede:
-![.layouts/solarized.png]
+![](.layouts/solarized.png)
