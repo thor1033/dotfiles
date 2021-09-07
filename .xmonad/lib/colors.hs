@@ -1,0 +1,1 @@
+/home/thor/.cache/wal/colors.hs
