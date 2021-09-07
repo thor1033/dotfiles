@@ -23,3 +23,31 @@
 #		endsnippet
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
+snippet NuMeTemplate "Template for NuMe" b
+\documentclass[manuscript,screen, nonacm]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+\makeatletter
+\let\@authorsaddresses\@empty
+\makeatother
+
+\oddsidemargin=10pt
+\evensidemargin=10pt
+
+\begin{document}
+
+\title{Opgave ${1:Title} NuMe 2021/2022}
+
+\author{Thor Bøje Simonsen, zvr697}
+
+\affiliation{%
+  \institution{University of Copenhagen}
+  \city{Copenhagen}
+}
+
+
+\maketitle
+endsnippet
