@@ -13,6 +13,7 @@ import System.Exit
 import XMonad
 import XMonad.Actions.CopyWindow (kill1)
 import XMonad.Actions.CycleWS (moveTo, nextScreen, prevScreen, shiftTo)
+import XMonad.Actions.DynamicProjects
 import XMonad.Actions.Promote
 import XMonad.Actions.WithAll (killAll)
 import XMonad.Hooks.DynamicLog
@@ -143,7 +144,7 @@ myKeys =
     ("M-s", spawn (myTerminal ++ " -e pulsemixer")),
     ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji")),
     ("M-p", spawn ("xournalpp")),
-    ("M-<Print>", unGrab *> spawn ("sleep 0.2; scrot '%Y-%m-%d_$wx$h.png' -se 'mv $n ~/Pictures/scrot/' ")),
+    ("M-<Print>", unGrab *> spawn ("screenshot select")),
     ("M-<KP_Enter>", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
     ("M-<Esc>", spawn ("/usr/local/bin/./powermenu.sh")),
     --Navigation
@@ -235,8 +236,8 @@ windowCount :: X (Maybe String)
 windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace . W.current . windowset
 
 myStartupHook = do
-  spawnOnce "nitrogen --restore &"
   spawnOnce "picom &"
+  spawnOnce "feh --bg-fill ~/Pictures/bg/florest-stair2.jpg"
   spawnOnce "mpd &"
   spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
