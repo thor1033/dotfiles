@@ -1,0 +1,13 @@
+#!/bin/bash
+# changeBrightness
+
+msgId="991049"
+
+if [[ $1 -gt "0" ]]; then
+    light -A $1 > /dev/null
+else
+    bright=$(( $1 * (-1)))
+    light -U $bright > /dev/null
+fi
+volume="$(light | awk '{print int($1+0.5)}')"
+dunstify -h "changeVolume" -u 0 -h int:value:"$(light)" "Brightness : "
