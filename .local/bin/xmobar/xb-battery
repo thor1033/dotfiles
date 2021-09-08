@@ -1,0 +1,35 @@
+#!/bin/sh
+
+battery="$(cat /sys/class/power_supply/BAT1/capacity)"
+stat="$(cat /sys/class/power_supply/BAT1/status)"
+
+if [ "$stat" == "Charging" ]; then
+  icon=""
+  color="#f8f8f2"
+elif ["$stat" == "Full"]; then
+  icon=""
+  color="#ff79c6"
+
+elif [ "$battery" -gt "79" ]; then
+  icon=""
+  color="#50fa7b"
+
+elif [ "$battery" -gt "54" ] && [ "$battery" -lt "80" ]; then
+  icon=""
+  color="#8be9fd"
+
+elif [ "$battery" -gt "29" ] && [ "$battery" -lt "55" ]; then
+  icon=""
+  color="#f1fa8c"
+  
+elif [ "$battery" -gt "10" ] && [ "$battery" -lt "30" ]; then
+  icon=""
+  color="#ffb86c"
+
+else
+  icon=""
+  color="#ff5555"
+
+fi
+
+echo "<fc=$color><fn=1>$icon</fn> $battery% </fc>"
