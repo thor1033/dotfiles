@@ -5,6 +5,25 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/bin/xmobar
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+
+##Plugins zPlug
+source ~/.zplug/init.zsh
+
+zplug "plugins/colorize",     from:oh-my-zsh
+zplug "plugins/z",            from:oh-my-zsh
+
+
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+zplug load
+
+
+
 autoload -U colors && colors	# Load colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
