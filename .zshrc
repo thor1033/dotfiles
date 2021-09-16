@@ -5,13 +5,15 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/bin/xmobar
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+#Sources
+source ~/.zplug/init.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ##Plugins zPlug
-source ~/.zplug/init.zsh
-
 zplug "plugins/colorize",     from:oh-my-zsh
 zplug "plugins/z",            from:oh-my-zsh
-
+zplug "b4b4r07/enhancd",      use:init.sh
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -81,7 +83,6 @@ alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
 alias ls="lsd"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/thor/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
