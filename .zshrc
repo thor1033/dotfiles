@@ -79,7 +79,6 @@ alias vi="nvim"
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
 alias ls="lsd"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
