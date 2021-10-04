@@ -41,7 +41,6 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dense-analysis/ale'
-Plug 'Rigellute/shades-of-purple.vim'
 call plug#end()
 
 set background=dark
@@ -89,5 +88,7 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 highlight CocFloating ctermbg=Yellow
-highlight CocErrorFloat ctermfg=Black
-
+highlight CocErrorFloat ctermfg=Red
+highlight CocWarningFloat ctermfg=Red
+highlight CocInfoFloat ctermfg=Black
+highlight CocHintFloat ctermfg=Black
