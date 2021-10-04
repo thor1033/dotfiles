@@ -79,6 +79,8 @@ alias vi="nvim"
 alias yt="youtube-dl --add-metadata -i"
 alias yta="yt -x -f bestaudio/best"
 alias ls="lsd"
+alias chp="cht.sh python"
+alias chl="cht.sh latex"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
