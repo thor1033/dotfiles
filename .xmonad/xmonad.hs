@@ -241,6 +241,7 @@ myStartupHook = do
   spawnOnce "mpd &"
   spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
+  spawnOnce "redshift &"
   spawnOnce "xmodmap ~/.Xmodmap &"
 
 ------------------------------------------------------------------------
