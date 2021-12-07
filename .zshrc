@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/bin/xmobar
+export PATH=$HOME/bin:/usr/local/bin:$PATH:/usr/local/bin/xmobar:$HOME/flutter/bin:/usr/lib/jvm/java-8-openjdk/bin
 
 # Path to your oh-my-zsh installation.
 export VISUAL=nvim
@@ -72,6 +72,7 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 alias ku="cd /mnt/Dokumenter/KU/ && fzf | xargs -r -I % $EDITOR %"
 alias kur="cd /mnt/Dokumenter/KU/ && ranger"
 alias stata="/usr/local/stata17/xstata && exit"
+alias statax="/usr/local/stata17/stata"
 
 cf() { du -a ~/.config/* | awk '{print $2}' | fzf | xargs -r $EDITOR ;}
 
