@@ -243,6 +243,9 @@ myStartupHook = do
   spawnOnce "unclutter &"
   spawnOnce "redshift &"
   spawnOnce "xmodmap ~/.Xmodmap &"
+  spawnOnce "xmodmap -e 'clear lock' &"
+  spawnOnce "xrandr --output DisplayPort-2 --mode 1920x1080 --rate 143.98"
+  spawnOnce "xrandr --output HDMI-A-0 --mode 1920x1080 --right-of DisplayPort-2"
 
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
