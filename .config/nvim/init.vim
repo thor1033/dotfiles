@@ -84,9 +84,9 @@ nnoremap <M-k> :resize +2<CR>
 nnoremap <M-h> :vertical resize -2<CR>
 nnoremap <M-l> :vertical resize -2<CR>
 
-" Adds semi-colon to end of line
 
 inoremap ,, <C-o>A;
+inoremap <Space><Space> <C-o>o 
 
 vnoremap < <gv
 vnoremap > >gv
