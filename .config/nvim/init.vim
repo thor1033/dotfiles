@@ -17,6 +17,10 @@ set cursorline
 set showtabline
 set nobackup
 set nowritebackup
+set termguicolors
+set autochdir
+
+let mapleader = "½" " map leader key
 
 autocmd BufEnter *.tex set spell spelllang=en_US,da_dk
 autocmd BufEnter *.md set spell spelllang=en_US,da_dk
@@ -41,6 +45,8 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dense-analysis/ale'
+Plug 'honza/vim-snippets'
+Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()
 
 set background=dark
@@ -57,6 +63,9 @@ let g:airline_theme='solarized'
 let g:shades_of_purple_airline = 1
 let g:airline_powerline_fonts = 1
 let g:Tex_FoldedSections = 'part|addpart,chapter|addchap,section|addsec,subsection,subsubsection,paragraph,subparagraph'
+
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -75,6 +84,9 @@ nnoremap <M-k> :resize +2<CR>
 nnoremap <M-h> :vertical resize -2<CR>
 nnoremap <M-l> :vertical resize -2<CR>
 
+" Adds semi-colon to end of line
+
+inoremap <leader>, <C-o>A;
 
 vnoremap < <gv
 vnoremap > >gv
@@ -86,7 +98,6 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
 highlight CocFloating ctermbg=Yellow
 highlight CocErrorFloat ctermfg=Red
 highlight CocWarningFloat ctermfg=Red
