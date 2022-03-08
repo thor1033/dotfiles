@@ -86,7 +86,7 @@ nnoremap <M-l> :vertical resize -2<CR>
 
 
 inoremap ,, <C-o>A;
-inoremap <Space><Space> <C-o>o 
+inoremap ½½ <C-o>o 
 
 vnoremap < <gv
 vnoremap > >gv
