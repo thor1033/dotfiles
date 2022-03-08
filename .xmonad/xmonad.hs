@@ -144,8 +144,8 @@ myKeys =
     ("M-s", spawn (myTerminal ++ " -e pulsemixer")),
     ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji")),
     ("M-p", spawn ("xournalpp")),
-    ("M-<Print>", unGrab *> spawn ("screenshot select")),
-    ("M-<KP_Enter>", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
+    ("M-S-p", unGrab *> spawn ("screenshot select")),
+    ("M-S-c", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
     ("M-<Esc>", spawn ("/usr/local/bin/./powermenu.sh")),
     --Navigation
     ("M-j", windows W.focusDown),
@@ -180,10 +180,10 @@ myKeys =
     ("M-<Home>", spawn ("mpc next")),
     ("M-<End>", spawn ("mpc prev")),
     --Volume
-    ("M-<Page_Up>", spawn ("changeVolume 5")),
-    ("M-S-<Page_Up>", spawn ("changeVolume 15")),
-    ("M-<Page_Down>", spawn ("changeVolume -5")),
-    ("M-S-<Page_Down>", spawn ("changeVolume -15")),
+    ("M-+", spawn ("changeVolume 5")),
+    ("M-S-+", spawn ("changeVolume 15")),
+    ("M--", spawn ("changeVolume -5")),
+    ("M-S--", spawn ("changeVolume -15")),
     ("M-S-m", spawn ("changeVolume 0")),
     --Layout
     ("M-<Tab>", sendMessage NextLayout),
@@ -239,7 +239,7 @@ myStartupHook = do
   spawnOnce "picom &"
   spawnOnce "feh --bg-fill ~/Pictures/bg/florest-stair2.jpg"
   spawnOnce "mpd &"
-  --spawnOnce "setxkbmap dk &"
+  spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
   spawnOnce "redshift &"
   spawnOnce "xmodmap .Xmodmap &"
