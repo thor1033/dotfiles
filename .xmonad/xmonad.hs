@@ -78,9 +78,9 @@ myWorkspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor = "#073642"
+myNormalBorderColor = "#222125"
 
-myFocusedBorderColor = "#2aa198"
+myFocusedBorderColor = "#07060B"
 
 --ScratchPads
 --
@@ -278,10 +278,10 @@ main = do
               <+> dynamicLogWithPP
                 xmobarPP
                   { ppOutput = \x -> hPutStrLn xmproc0 x >> hPutStrLn xmproc1 x,
-                    ppCurrent = xmobarColor "#859900" "" . xmobarBorder "Bottom" "#859900" 2 . pad,
-                    ppVisible = xmobarColor "#859900" "" . pad,
-                    ppHidden = xmobarColor "#2aa198" "" . pad,
-                    ppHiddenNoWindows = xmobarColor "#586e75" "" . pad,
+                    ppCurrent = xmobarColor "#FFFFFF" "" . xmobarBorder "Bottom" "#FFFFFF" 2 . pad,
+                    ppVisible = xmobarColor "#FFFFFF" "" . pad,
+                    ppHidden = xmobarColor "#A6A3A2" "" . pad,
+                    ppHiddenNoWindows = xmobarColor "#575557" "" . pad,
                     ppTitle = xmobarColor "#f8f8f2" "" . shorten 60,
                     ppSep = "<fc=#f1da8c> <fn=1>\xf142</fn> </fc>",
                     ppUrgent = xmobarColor "#ff5555" "" . wrap "!" "!",
