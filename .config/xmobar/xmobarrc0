@@ -2,8 +2,8 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
        , additionalFonts = ["xft:Font Awesome 5 Free Solid:pixelsize=13",
                             "xft:Font Awesome 5 Brands:pixelsize=13",
                             "xft:joypixels:pixelsize=13:antialias=true"]
-       , fgColor = "#84a0c6"
-       , bgColor = "#073643"
+       , fgColor = "#FFFFFF"
+       , bgColor = "#07060B"
        --, alpha = 200
        --, borderColor = "#bd93f9"
        --, border = FullB
@@ -26,5 +26,5 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=t
         ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "  %UnsafeStdinReader% }{  %ethprice% %btcprice% %kumail% %hotmail% %volume% %weather% %clock% "
+       , template = "  %UnsafeStdinReader% } <box type=Bottom width=2 color=#FFFFFF><fc=#FFFFFF> %clock% </fc></box> { <box type=Bottom width=2 color=#FFFFFF><fc=#FFFFFF> %kumail% </fc></box>    <box type=Bottom width=2 color=#FFFFFF><fc=#FFFFFF> %hotmail% </fc></box>   "
        }
