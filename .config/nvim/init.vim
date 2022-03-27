@@ -26,9 +26,6 @@ autocmd BufEnter *.tex set spell spelllang=en_US,da_dk
 autocmd BufEnter *.md set spell spelllang=en_US,da_dk
 
 call plug#begin()
-Plug 'overcache/NeoSolarized'
-Plug 'dylanaraps/wal.vim'
-Plug 'neovimhaskell/haskell-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -62,7 +59,6 @@ let g:vimtex_view_general_viewer = 'zathura'
 "let g:airline_theme='solarized'
 let g:shades_of_purple_airline = 1
 let g:airline_powerline_fonts = 1
-let g:Tex_FoldedSections = 'part|addpart,chapter|addchap,section|addsec,subsection,subsubsection,paragraph,subparagraph'
 
 set conceallevel=1
 let g:tex_conceal='abdmg'
@@ -98,8 +94,3 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-highlight CocFloating ctermbg=Yellow
-highlight CocErrorFloat ctermfg=Red
-highlight CocWarningFloat ctermfg=Red
-highlight CocInfoFloat ctermfg=Black
-highlight CocHintFloat ctermfg=Black
