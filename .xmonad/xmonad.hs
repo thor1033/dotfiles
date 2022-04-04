@@ -1,12 +1,3 @@
--- xmonad example config file.
---
--- A template showing all available configuration hooks,
--- and how to override the defaults in your own xmonad.hs conf file.
---
--- Normally, you'd only override those defaults you care about.
---
---
-
 import qualified Data.Map as M
 import Data.Monoid
 import System.Exit
@@ -56,7 +47,7 @@ myClickJustFocuses = False
 
 -- Width of the window border in pixels.
 --
-myBorderWidth = 2
+myBorderWidth = 3
 
 -- modMask lets you specify which modkey you want to use. The default
 -- is mod1Mask ("left alt").  You may also consider using mod3Mask
@@ -78,7 +69,7 @@ myWorkspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor = "#222125"
+myNormalBorderColor = "#A6A3A2"
 
 myFocusedBorderColor = "#07060B"
 
@@ -135,7 +126,7 @@ myKeys =
   --Launch Programs
   [ ("M-<Return>", spawn (myTerminal)),
     ("M-w", spawn (myBrowser)),
-    ("M-d", spawn ("rofi -no-lazy-grab -show drun -modi drun")),
+    ("M-d", spawn ("rofi -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launcher_marble.rasi")),
     ("M-e", spawn (myTerminal ++ " -e neomutt")),
     ("M-m", spawn (myTerminal ++ " -e ncmpcpp")),
     ("M-r", spawn (myTerminal ++ " -e ranger")),
@@ -237,7 +228,7 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 myStartupHook = do
   spawnOnce "picom &"
-  spawnOnce "feh --bg-fill ~/Pictures/bg/florest-stair2.jpg"
+  spawnOnce "feh --bg-fill ~/Pictures/bg/lion.jpg"
   spawnOnce "mpd &"
   spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
