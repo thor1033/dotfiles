@@ -133,7 +133,7 @@ myKeys =
     ("M-n", spawn (myTerminal ++ " -e nvim")),
     ("M-c", spawn (myTerminal ++ " -e calcurse")),
     ("M-s", spawn (myTerminal ++ " -e pulsemixer")),
-    ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji")),
+    ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji -theme ~/.config/rofi/calculator_marble.rasi")),
     ("M-p", spawn ("xournalpp")),
     ("M-S-p", unGrab *> spawn ("screenshot select")),
     ("M-S-c", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
