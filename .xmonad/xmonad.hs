@@ -69,7 +69,7 @@ myWorkspaces = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 -- Border colors for unfocused and focused windows, respectively.
 --
-myNormalBorderColor = "#A6A3A2"
+myNormalBorderColor = "#f8f1ae"
 
 myFocusedBorderColor = "#07060B"
 
@@ -245,8 +245,8 @@ myStartupHook = do
 --
 main :: IO ()
 main = do
-  xmproc0 <- spawnPipe "xmobar -x 0 $HOME/.config/xmobar/xmobarrc0"
-  xmproc1 <- spawnPipe "xmobar -x 1 $HOME/.config/xmobar/xmobarrc1"
+  xmproc0 <- spawnPipe "xmobar -x 0 $HOME/.config/xmobar/xmobarCake0"
+  xmproc1 <- spawnPipe "xmobar -x 1 $HOME/.config/xmobar/xmobarCake1"
 
   xmonad $
     docks
@@ -269,10 +269,10 @@ main = do
               <+> dynamicLogWithPP
                 xmobarPP
                   { ppOutput = \x -> hPutStrLn xmproc0 x >> hPutStrLn xmproc1 x,
-                    ppCurrent = xmobarColor "#FFFFFF" "" . xmobarBorder "Bottom" "#FFFFFF" 2 . pad,
-                    ppVisible = xmobarColor "#FFFFFF" "" . pad,
-                    ppHidden = xmobarColor "#A6A3A2" "" . pad,
-                    ppHiddenNoWindows = xmobarColor "#575557" "" . pad,
+                    ppCurrent = xmobarColor "#bee5b0" "" . xmobarBorder "Bottom" "#bee5b0" 2 . pad,
+                    ppVisible = xmobarColor "#bee5b0" "" . pad,
+                    ppHidden = xmobarColor "#f8f1ae" "" . pad,
+                    ppHiddenNoWindows = xmobarColor "#4c4943" "" . pad,
                     ppTitle = xmobarColor "#f8f8f2" "" . shorten 60,
                     ppSep = "<fc=#f1da8c> <fn=1>\xf142</fn> </fc>",
                     ppUrgent = xmobarColor "#ff5555" "" . wrap "!" "!",
