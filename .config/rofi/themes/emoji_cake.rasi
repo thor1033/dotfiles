@@ -1,0 +1,167 @@
+/*
+ *
+ * Author  : Aditya Shakya
+ * Mail    : adi1090x@gmail.com
+ * Github  : @adi1090x
+ * Twitter : @adi1090x
+ *
+ *ALPHA="#00000000"
+ *BG="#1D1C1Aff"
+ *FG="#FAF8F6ff"
+ *SELECT="#A4D8D8ff"
+ *ACCENT="#EFB9C0ff"
+ */
+
+configuration {
+    font: 							"Mononoki 12";
+    fixed-num-lines: 				true;
+    show-icons: 					false;
+    sidebar-mode: 					true;
+    scroll-method: 					0;
+    window-format: 					"[{w}] ··· {c} ···   {t}";
+    click-to-exit: 					true;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				"";
+    display-windowcd: 				"";
+    display-run: 					"";
+    display-ssh: 					"";
+    display-drun: 					"";
+    display-combi: 					"";
+}
+
+* {
+    background-color:             	#1D1C1Aff;
+}
+
+window {
+    border: 						3px;
+    border-color: 					#EFB9C0ff;
+    padding: 						15;
+    width: 							20%;
+}
+
+prompt {
+    spacing: 						0;
+    border: 						0;
+    text-color: 					#A4D8D8ff;
+}
+
+textbox-prompt-colon {
+    expand: 						false;
+    str: 							" ";
+    margin:							0px 4px 0px 0px;
+    text-color: 					inherit;
+}
+
+entry {
+    spacing:    					0;
+    text-color: 					#FAF8F6ff;
+}
+
+case-indicator {
+    spacing:    					0;
+    text-color: 					#FAF8F6ff;
+}
+
+inputbar {
+    spacing:    					0px;
+    text-color: 					#FAF8F6ff;
+    padding:    					1px;
+    children: 						[ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+mainbox {
+    border: 						0px;
+    border-color: 					#EFB9C0ff;
+    padding: 						6;
+}
+
+listview {
+    lines:							6;
+    columns:						1;
+    fixed-height: 					0;
+    border: 						0px;
+    border-color: 					#EFB9C0ff;
+    spacing: 						4px;
+    scrollbar: 						false;
+    padding: 						5px 5px 0px 5px;
+}
+
+element-text, element-icon {
+    background-color: #00000000;
+    text-color:       inherit;
+}
+
+element {
+    border: 						0px;
+    border-radius: 					4px;
+    padding: 						5px;
+}
+element normal.normal {
+    background-color: 				#1D1C1Aff;
+    text-color:       				#FAF8F6ff;
+}
+element selected.normal {
+    background-color: 				#BEE5B0ff;
+    text-color:       				#1D1C1Aff;
+}
+element selected.active {
+    background-color: 				#FAF8F6ff;
+    text-color:       				#1D1C1Aff;
+}
+element alternate.normal {
+    background-color: 				#1D1C1Aff;
+    text-color:       				#FAF8F6ff;
+}
+element alternate.urgent {
+    background-color: 				#1D1C1Aff;
+    text-color:       				#FAF8F6ff;
+}
+element alternate.active {
+    background-color: 				#1D1C1Aff;
+    text-color:       				#FAF8F6ff;
+}
+
+sidebar {
+    border:       					0px;
+    border-color: 					#EFB9C0ff;
+    border-radius: 					0px;
+}
+
+button {
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    background-color:             	#BCAFCFff;
+    margin: 						5px;
+    padding: 						5px;
+    text-color: 					#1D1C1Aff;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					#FAF8F6ff;
+}
+
+button selected {
+    background-color:             	#BCAFCFff;
+    text-color: 					#1D1C1Aff;
+    border: 						0px;
+    border-radius: 					4px;
+    border-color: 					#FAF8F6ff;
+}
+
+scrollbar {
+    width:        					4px;
+    border:       					0px;
+    handle-color: 					#FAF8F6ff;
+    handle-width: 					8px;
+    padding:      					0;
+}
+
+message {
+    border: 						0px;
+    border-color: 					#EFB9C0ff;
+    padding: 						1px;
+}
+
+textbox {
+    text-color: 					#FAF8F6ff;
+}
