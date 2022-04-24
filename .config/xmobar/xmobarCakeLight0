@@ -1,0 +1,30 @@
+
+       , additionalFonts = ["xft:Font Awesome 5 Free Solid:pixelsize=13",
+                            "xft:Font Awesome 5 Brands:pixelsize=13",
+                            "xft:joypixels:pixelsize=13:antialias=true"]
+       , fgColor = "#1d1c1a"
+       , bgColor = "#faf8f6"
+       --, alpha = 200
+       --, borderColor = "#bd93f9"
+       --, border = FullB
+       , position = Static { xpos = 0 , ypos = 0, width = 1920, height = 24 }
+       , lowerOnStart = True
+       , hideOnStart = False
+       , allDesktops = True
+       , persistent = True
+       , textOffset = 16
+       , commands = [
+		      Run Com "xb-hotmail" [] "hotmail" 60
+		    , Run Com "xb-kumail" [] "kumail" 60
+		    , Run Com "xb-volume" [] "volume" 1
+		    , Run Com "xb-btc" [] "btcprice" 60
+		    , Run Com "xb-eth" [] "ethprice" 60
+		    , Run Com "xb-clock" [] "clock" 60
+		    , Run Com "xb-weather" [] "weather" 18000
+        , Run Com "echo" ["<fc=#ecd822><fn=1>\xf142 </fn></fc>"] "sep" 10000000000
+        , Run UnsafeStdinReader
+        ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "  %UnsafeStdinReader% } <box type=Bottom width=2 color=#49abab><fc=#49abab> %clock% </fc></box> { <box type=Bottom width=2 color=#745c99><fc=#745c99> %kumail% </fc></box>    <box type=Bottom width=2 color=#d23b4f><fc=#d23b4f> %hotmail% </fc></box>   "
+       }
