@@ -228,7 +228,7 @@ windowCount = gets $ Just . show . length . W.integrate' . W.stack . W.workspace
 
 myStartupHook = do
   spawnOnce "picom &"
-  spawnOnce "feh --bg-fill ~/Pictures/bg/lion.jpg"
+  spawnOnce "feh --bg-fill ~/Pictures/bg/foggg.jpeg"
   spawnOnce "mpd &"
   spawnOnce "setxkbmap dk &"
   spawnOnce "unclutter &"
