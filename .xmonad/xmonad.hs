@@ -136,7 +136,7 @@ myKeys =
     ("M-æ", spawn ("rofi -no-lazy-grab -show emoji -modi emoji -theme ~/.config/rofi/themes/emoji_cake.rasi")),
     ("M-p", spawn ("xournalpp")),
     ("M-S-p", unGrab *> spawn ("screenshot select")),
-    ("M-S-c", spawn ("rofi -no-lazy-grab -show calc -modi calc -theme ~/.config/rofi/calculator_marble.rasi")),
+    ("M-S-c", spawn ("rofi -no-lazy-grab -show calc -modi calc")),
     ("M-<Esc>", spawn ("/usr/local/bin/./powermenu.sh")),
     --Navigation
     ("M-j", windows W.focusDown),
